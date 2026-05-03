@@ -35,7 +35,7 @@ make -j
 
 Use the run-zns-exp.sh and pass the parameters as below:
 
-./run-zns-exp.sh <zone size> <channels per zone> <ways per zone>
+FORMAT: ./run-zns-exp.sh zone_size channels_per_zone ways_per_zone
 
 eg.  ./run-zns-exp.sh 64 8 1
 
