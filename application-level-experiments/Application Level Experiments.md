@@ -37,7 +37,10 @@ Use the run-zns-exp.sh and pass the parameters as below:
 
 FORMAT: ./run-zns-exp.sh zone_size channels_per_zone ways_per_zone
 
-eg.  ./run-zns-exp.sh 64 8 1
+eg.  
+```bash
+./run-zns-exp.sh 64 8 1
+```
 
 # Overview
 
