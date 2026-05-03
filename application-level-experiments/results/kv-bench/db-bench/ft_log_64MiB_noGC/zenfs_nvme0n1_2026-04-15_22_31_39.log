@@ -1,0 +1,1682 @@
+2026/04/15-22:31:39.667831 1104 New Zoned Block Device: /dev/nvme0n1
+2026/04/15-22:31:39.668262 1104 Zone block device nr zones: 64 max active: 14 max open: 14 
+2026/04/15-22:31:39.668946 1104 ZenFS initializing
+2026/04/15-22:31:39.668954 1104 ZenFS parameters: block device: /dev/nvme0n1, aux filesystem: PosixFileSystem
+2026/04/15-22:31:39.668957 1104 ZenFS initializing
+2026/04/15-22:31:39.669126 1104 Found OK superblock in zone 0 seq: 1
+2026/04/15-22:31:39.669140 1104 Recovered from zone: 0
+2026/04/15-22:31:39.669157 1104 Rolling to metazone 1
+2026/04/15-22:31:40.620955 1104 Superblock sequence 2
+2026/04/15-22:31:40.620973 1104 Finish threshold 20
+2026/04/15-22:31:40.620977 1104 Filesystem mount OK
+2026/04/15-22:31:40.620979 1104 Resetting unused IO Zones..
+2026/04/15-22:31:40.620985 1104   Done
+2026/04/15-22:31:40.620988 1104 GC is disabled
+2026/04/15-22:31:40.621112 1104   Files:
+2026/04/15-22:31:40.621117 1104 Sum of all files: 0 MB of data 
+2026/04/15-22:31:40.621138 1104 [DEBUG] GetTestDirectory: rocksdbtest aux: /home/femu/rocksdbTest/zenfs_aux/rocksdbtest
+2026/04/15-22:31:40.621339 1104 [DEBUG] GetChildrenNoLock: /rocksdbtest/dbbench 
+2026/04/15-22:31:40.621439 1104 [DEBUG] CreatDirIfMissing: rocksdbtest/dbbench to aux: /home/femu/rocksdbTest/zenfs_aux/rocksdbtest/dbbench
+2026/04/15-22:31:40.621493 1104 [DEBUG] FileExists: /rocksdbtest/dbbench/LOG 
+2026/04/15-22:31:40.621875 1104 [DEBUG] GetChildrenNoLock: /rocksdbtest/dbbench 
+2026/04/15-22:31:40.621979 1104 [DEBUG] DeleteFile: rocksdbtest/dbbench/LOG 
+2026/04/15-22:31:40.622015 1104 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 1 0 0 0 0 0 0
+2026/04/15-22:31:40.622026 1104 [DEBUG] GetChildrenNoLock: /rocksdbtest/dbbench/archive 
+2026/04/15-22:31:40.622047 1104 [DEBUG] DeleteFile: rocksdbtest/dbbench/LOCK 
+2026/04/15-22:31:40.622088 1104 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 1 0 0 0 0 0 0
+2026/04/15-22:31:40.622128 1104 [DEBUG] DeleteDir: rocksdbtest/dbbench aux: /home/femu/rocksdbTest/zenfs_aux/rocksdbtest/dbbench
+2026/04/15-22:31:40.622134 1104 [DEBUG] GetChildrenNoLock: /rocksdbtest/dbbench 
+2026/04/15-22:31:40.622202 1104 [DEBUG] DeleteDir: rocksdbtest/dbbench/archive aux: /home/femu/rocksdbTest/zenfs_aux/rocksdbtest/dbbench/archive
+2026/04/15-22:31:40.622209 1104 [DEBUG] GetChildrenNoLock: /rocksdbtest/dbbench/archive 
+2026/04/15-22:31:40.627416 1104 [DEBUG] CreatDirIfMissing: rocksdbtest/dbbench to aux: /home/femu/rocksdbTest/zenfs_aux/rocksdbtest/dbbench
+2026/04/15-22:31:40.627502 1104 [DEBUG] FileExists: /rocksdbtest/dbbench/LOG 
+2026/04/15-22:31:40.627797 1104 [DEBUG] GetChildrenNoLock: /rocksdbtest/dbbench 
+2026/04/15-22:31:40.628421 1104 [DEBUG] CreatDirIfMissing: rocksdbtest/dbbench to aux: /home/femu/rocksdbTest/zenfs_aux/rocksdbtest/dbbench
+2026/04/15-22:31:40.628434 1104 [DEBUG] CreatDirIfMissing: rocksdbtest/dbbench to aux: /home/femu/rocksdbTest/zenfs_aux/rocksdbtest/dbbench
+2026/04/15-22:31:40.628458 1104 [DEBUG] CreatDirIfMissing: rocksdbtest/dbbench to aux: /home/femu/rocksdbTest/zenfs_aux/rocksdbtest/dbbench
+2026/04/15-22:31:40.628467 1104 [DEBUG] NewDirectory: rocksdbtest/dbbench to aux: /home/femu/rocksdbTest/zenfs_aux/rocksdbtest/dbbench
+2026/04/15-22:31:40.628523 1104 [DEBUG] FileExists: /rocksdbtest/dbbench/CURRENT 
+2026/04/15-22:31:40.628574 1104 [DEBUG] New writable file: /rocksdbtest/dbbench/000000.dbtmp direct: 0
+2026/04/15-22:31:40.629194 1104 Entering Apply Finish Threshold Function
+2026/04/15-22:31:40.629210 1104 [DEBUG] Allocating zone(new=1) start: 0xc000000 wp: 0xc000000 lt: 0 file lt: 0
+2026/04/15-22:31:40.629216 1104 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 1 0 0 0 0 1 1
+2026/04/15-22:31:40.629222 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000000.dbtmp
+2026/04/15-22:31:40.630254 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000000.dbtmp
+2026/04/15-22:31:40.630761 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000000.dbtmp
+2026/04/15-22:31:40.631267 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000000.dbtmp
+2026/04/15-22:31:40.631820 1104 [DEBUG] Rename file: /rocksdbtest/dbbench/000000.dbtmp to : /rocksdbtest/dbbench/IDENTITY
+2026/04/15-22:31:40.632338 1104 [DEBUG] NewDirectory: rocksdbtest/dbbench to aux: /home/femu/rocksdbTest/zenfs_aux/rocksdbtest/dbbench
+2026/04/15-22:31:40.633722 1104 [DEBUG] FileExists: /rocksdbtest/dbbench/MANIFEST-000001 
+2026/04/15-22:31:40.633746 1104 [DEBUG] New writable file: /rocksdbtest/dbbench/MANIFEST-000001 direct: 0
+2026/04/15-22:31:40.634303 1104 Entering Apply Finish Threshold Function
+2026/04/15-22:31:40.634310 1104 [DEBUG] Allocating zone(new=0) start: 0xc000000 wp: 0xc000200 lt: 0 file lt: 0
+2026/04/15-22:31:40.634314 1104 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 1 0 63 99 1 1 1
+2026/04/15-22:31:40.634316 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000001
+2026/04/15-22:31:40.635328 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000001
+2026/04/15-22:31:40.635841 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000001
+2026/04/15-22:31:40.636350 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000001
+2026/04/15-22:31:40.636899 1104 [DEBUG] New writable file: /rocksdbtest/dbbench/000001.dbtmp direct: 0
+2026/04/15-22:31:40.637417 1104 Entering Apply Finish Threshold Function
+2026/04/15-22:31:40.637424 1104 [DEBUG] Allocating zone(new=0) start: 0xc000000 wp: 0xc000400 lt: 0 file lt: 0
+2026/04/15-22:31:40.637427 1104 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 1 0 63 99 1 1 1
+2026/04/15-22:31:40.637430 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000001.dbtmp
+2026/04/15-22:31:40.638434 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000001.dbtmp
+2026/04/15-22:31:40.638943 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000001.dbtmp
+2026/04/15-22:31:40.639455 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000001.dbtmp
+2026/04/15-22:31:40.640019 1104 [DEBUG] Rename file: /rocksdbtest/dbbench/000001.dbtmp to : /rocksdbtest/dbbench/CURRENT
+2026/04/15-22:31:40.640558 1104 [DEBUG] New random access file: /rocksdbtest/dbbench/CURRENT direct: 1
+2026/04/15-22:31:40.640579 1104 [DEBUG] New sequential file: /rocksdbtest/dbbench/CURRENT direct: 0
+2026/04/15-22:31:40.640728 1104 [DEBUG] New sequential file: /rocksdbtest/dbbench/MANIFEST-000001 direct: 0
+2026/04/15-22:31:40.642876 1104 [DEBUG] GetChildrenNoLock: /rocksdbtest/dbbench 
+2026/04/15-22:31:40.642988 1104 [DEBUG] CreatDirIfMissing: rocksdbtest/dbbench to aux: /home/femu/rocksdbTest/zenfs_aux/rocksdbtest/dbbench
+2026/04/15-22:31:40.643002 1104 [DEBUG] NewDirectory: rocksdbtest/dbbench to aux: /home/femu/rocksdbTest/zenfs_aux/rocksdbtest/dbbench
+2026/04/15-22:31:40.643022 1104 [DEBUG] GetChildrenNoLock: /rocksdbtest/dbbench 
+2026/04/15-22:31:40.643070 1104 [DEBUG] New writable file: /rocksdbtest/dbbench/000004.log direct: 0
+2026/04/15-22:31:40.643707 1104 [DEBUG] New writable file: /rocksdbtest/dbbench/MANIFEST-000005 direct: 0
+2026/04/15-22:31:40.644322 1104 Entering Apply Finish Threshold Function
+2026/04/15-22:31:40.644336 1104 [DEBUG] Allocating zone(new=0) start: 0xc000000 wp: 0xc000600 lt: 0 file lt: 0
+2026/04/15-22:31:40.644342 1104 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 1 0 63 99 1 1 1
+2026/04/15-22:31:40.644347 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:40.645407 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:40.645959 1104 [DEBUG] New writable file: /rocksdbtest/dbbench/000005.dbtmp direct: 0
+2026/04/15-22:31:40.646514 1104 Entering Apply Finish Threshold Function
+2026/04/15-22:31:40.646528 1104 [DEBUG] Allocating zone(new=1) start: 0x10000000 wp: 0x10000000 lt: 0 file lt: 0
+2026/04/15-22:31:40.646533 1104 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 1 0 63 99 1 2 2
+2026/04/15-22:31:40.646542 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000005.dbtmp
+2026/04/15-22:31:40.647588 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000005.dbtmp
+2026/04/15-22:31:40.648128 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000005.dbtmp
+2026/04/15-22:31:40.648660 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000005.dbtmp
+2026/04/15-22:31:40.649261 1104 [DEBUG] Rename file: /rocksdbtest/dbbench/000005.dbtmp to : /rocksdbtest/dbbench/CURRENT
+2026/04/15-22:31:40.651576 1104 [DEBUG] New writable file: /rocksdbtest/dbbench/OPTIONS-000006.dbtmp direct: 0
+2026/04/15-22:31:40.652457 1104 Entering Apply Finish Threshold Function
+2026/04/15-22:31:40.652470 1104 [DEBUG] Allocating zone(new=0) start: 0x10000000 wp: 0x10000200 lt: 0 file lt: 0
+2026/04/15-22:31:40.652475 1104 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 1 0 127 99 2 2 2
+2026/04/15-22:31:40.652481 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/OPTIONS-000006.dbtmp
+2026/04/15-22:31:40.653549 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/OPTIONS-000006.dbtmp
+2026/04/15-22:31:40.654085 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/OPTIONS-000006.dbtmp
+2026/04/15-22:31:40.654615 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/OPTIONS-000006.dbtmp
+2026/04/15-22:31:40.655244 1104 [DEBUG] New sequential file: /rocksdbtest/dbbench/OPTIONS-000006.dbtmp direct: 0
+2026/04/15-22:31:40.656832 1104 [DEBUG] GetFileSize: /rocksdbtest/dbbench/OPTIONS-000006.dbtmp 
+2026/04/15-22:31:40.656849 1104 [DEBUG] Rename file: /rocksdbtest/dbbench/OPTIONS-000006.dbtmp to : /rocksdbtest/dbbench/OPTIONS-000007
+2026/04/15-22:31:40.657438 1104 [DEBUG] NewDirectory: rocksdbtest/dbbench to aux: /home/femu/rocksdbTest/zenfs_aux/rocksdbtest/dbbench
+2026/04/15-22:31:40.658434 1104 [DEBUG] GetChildrenNoLock: /rocksdbtest/dbbench 
+2026/04/15-22:31:40.658550 1104 [DEBUG] GetChildrenNoLock: /rocksdbtest/dbbench 
+2026/04/15-22:31:40.658607 1104 [DEBUG] GetChildrenNoLock: /rocksdbtest/dbbench 
+2026/04/15-22:31:40.658675 1104 [DEBUG] DeleteFile: rocksdbtest/dbbench/MANIFEST-000001 
+2026/04/15-22:31:40.659285 1104 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 1 0 127 99 2 2 1
+2026/04/15-22:31:40.678863 1104 [DEBUG] GetChildrenNoLock: /rocksdbtest/dbbench 
+2026/04/15-22:31:40.679064 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000004.log
+2026/04/15-22:31:40.679639 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:40.680170 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:40.680786 1104 [DEBUG] GetFileSize: /rocksdbtest/dbbench/MANIFEST-000005 
+2026/04/15-22:31:40.681000 1104 [DEBUG] CreatDirIfMissing: rocksdbtest/dbbench to aux: /home/femu/rocksdbTest/zenfs_aux/rocksdbtest/dbbench
+2026/04/15-22:31:40.681026 1104 [DEBUG] FileExists: /rocksdbtest/dbbench/LOG 
+2026/04/15-22:31:40.681055 1104 [DEBUG] Rename file: /rocksdbtest/dbbench/LOG to : /rocksdbtest/dbbench/LOG.old.1776292300681046
+2026/04/15-22:31:40.681199 1104 [DEBUG] GetChildrenNoLock: /rocksdbtest/dbbench 
+2026/04/15-22:31:40.681278 1104 [DEBUG] DeleteFile: rocksdbtest/dbbench/LOG.old.1776292300681046 
+2026/04/15-22:31:40.681364 1104 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 1 0 127 99 2 2 0
+2026/04/15-22:31:40.681372 1104 [DEBUG] DeleteFile: rocksdbtest/dbbench/LOG 
+2026/04/15-22:31:40.681395 1104 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 1 0 127 99 2 2 0
+2026/04/15-22:31:40.681404 1104 [DEBUG] NumFileLinks: /rocksdbtest/dbbench/000004.log
+2026/04/15-22:31:40.681431 1104 [DEBUG] DeleteFile: rocksdbtest/dbbench/000004.log 
+2026/04/15-22:31:40.681997 1104 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 1 0 127 99 2 2 0
+2026/04/15-22:31:40.682044 1104 [DEBUG] DeleteFile: rocksdbtest/dbbench/CURRENT 
+2026/04/15-22:31:40.682595 1104 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 1 0 127 99 2 2 0
+2026/04/15-22:31:40.682605 1104 [DEBUG] DeleteFile: rocksdbtest/dbbench/IDENTITY 
+2026/04/15-22:31:40.683146 1104 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 1 0 127 99 2 2 0
+2026/04/15-22:31:40.683156 1104 [DEBUG] DeleteFile: rocksdbtest/dbbench/MANIFEST-000005 
+2026/04/15-22:31:40.683801 1104 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 1 0 63 99 1 1 0
+2026/04/15-22:31:40.683812 1104 [DEBUG] DeleteFile: rocksdbtest/dbbench/OPTIONS-000007 
+2026/04/15-22:31:40.684465 1104 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 1 0 0 0 0 0 0
+2026/04/15-22:31:40.684482 1104 [DEBUG] GetChildrenNoLock: /rocksdbtest/dbbench/archive 
+2026/04/15-22:31:40.684513 1104 [DEBUG] DeleteFile: rocksdbtest/dbbench/LOCK 
+2026/04/15-22:31:40.684554 1104 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 1 0 0 0 0 0 0
+2026/04/15-22:31:40.684590 1104 [DEBUG] DeleteDir: rocksdbtest/dbbench aux: /home/femu/rocksdbTest/zenfs_aux/rocksdbtest/dbbench
+2026/04/15-22:31:40.684596 1104 [DEBUG] GetChildrenNoLock: /rocksdbtest/dbbench 
+2026/04/15-22:31:40.684677 1104 [DEBUG] DeleteDir: rocksdbtest/dbbench/archive aux: /home/femu/rocksdbTest/zenfs_aux/rocksdbtest/dbbench/archive
+2026/04/15-22:31:40.684685 1104 [DEBUG] GetChildrenNoLock: /rocksdbtest/dbbench/archive 
+2026/04/15-22:31:40.685795 1104 [DEBUG] CreatDirIfMissing: rocksdbtest/dbbench to aux: /home/femu/rocksdbTest/zenfs_aux/rocksdbtest/dbbench
+2026/04/15-22:31:40.685865 1104 [DEBUG] FileExists: /rocksdbtest/dbbench/LOG 
+2026/04/15-22:31:40.686059 1104 [DEBUG] GetChildrenNoLock: /rocksdbtest/dbbench 
+2026/04/15-22:31:40.686681 1104 [DEBUG] CreatDirIfMissing: rocksdbtest/dbbench to aux: /home/femu/rocksdbTest/zenfs_aux/rocksdbtest/dbbench
+2026/04/15-22:31:40.686693 1104 [DEBUG] CreatDirIfMissing: rocksdbtest/dbbench to aux: /home/femu/rocksdbTest/zenfs_aux/rocksdbtest/dbbench
+2026/04/15-22:31:40.686704 1104 [DEBUG] CreatDirIfMissing: rocksdbtest/dbbench to aux: /home/femu/rocksdbTest/zenfs_aux/rocksdbtest/dbbench
+2026/04/15-22:31:40.686712 1104 [DEBUG] NewDirectory: rocksdbtest/dbbench to aux: /home/femu/rocksdbTest/zenfs_aux/rocksdbtest/dbbench
+2026/04/15-22:31:40.686762 1104 [DEBUG] FileExists: /rocksdbtest/dbbench/CURRENT 
+2026/04/15-22:31:40.686837 1104 [DEBUG] New writable file: /rocksdbtest/dbbench/000000.dbtmp direct: 0
+2026/04/15-22:31:40.687400 1104 Entering Apply Finish Threshold Function
+2026/04/15-22:31:40.687423 1104 [DEBUG] Allocating zone(new=1) start: 0xc000000 wp: 0xc000000 lt: 0 file lt: 0
+2026/04/15-22:31:40.687429 1104 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 1 0 0 0 0 1 1
+2026/04/15-22:31:40.687435 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000000.dbtmp
+2026/04/15-22:31:40.691095 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000000.dbtmp
+2026/04/15-22:31:40.691656 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000000.dbtmp
+2026/04/15-22:31:40.692192 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000000.dbtmp
+2026/04/15-22:31:40.692787 1104 [DEBUG] Rename file: /rocksdbtest/dbbench/000000.dbtmp to : /rocksdbtest/dbbench/IDENTITY
+2026/04/15-22:31:40.693331 1104 [DEBUG] NewDirectory: rocksdbtest/dbbench to aux: /home/femu/rocksdbTest/zenfs_aux/rocksdbtest/dbbench
+2026/04/15-22:31:40.694316 1104 [DEBUG] FileExists: /rocksdbtest/dbbench/MANIFEST-000001 
+2026/04/15-22:31:40.694348 1104 [DEBUG] New writable file: /rocksdbtest/dbbench/MANIFEST-000001 direct: 0
+2026/04/15-22:31:40.694912 1104 Entering Apply Finish Threshold Function
+2026/04/15-22:31:40.694929 1104 [DEBUG] Allocating zone(new=0) start: 0xc000000 wp: 0xc000200 lt: 0 file lt: 0
+2026/04/15-22:31:40.694935 1104 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 1 0 63 99 1 1 1
+2026/04/15-22:31:40.694940 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000001
+2026/04/15-22:31:40.695978 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000001
+2026/04/15-22:31:40.696512 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000001
+2026/04/15-22:31:40.697037 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000001
+2026/04/15-22:31:40.697628 1104 [DEBUG] New writable file: /rocksdbtest/dbbench/000001.dbtmp direct: 0
+2026/04/15-22:31:40.698165 1104 Entering Apply Finish Threshold Function
+2026/04/15-22:31:40.698177 1104 [DEBUG] Allocating zone(new=0) start: 0xc000000 wp: 0xc000400 lt: 0 file lt: 0
+2026/04/15-22:31:40.698182 1104 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 1 0 63 99 1 1 1
+2026/04/15-22:31:40.698187 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000001.dbtmp
+2026/04/15-22:31:40.699245 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000001.dbtmp
+2026/04/15-22:31:40.699777 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000001.dbtmp
+2026/04/15-22:31:40.700307 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000001.dbtmp
+2026/04/15-22:31:40.700899 1104 [DEBUG] Rename file: /rocksdbtest/dbbench/000001.dbtmp to : /rocksdbtest/dbbench/CURRENT
+2026/04/15-22:31:40.701460 1104 [DEBUG] New random access file: /rocksdbtest/dbbench/CURRENT direct: 1
+2026/04/15-22:31:40.701478 1104 [DEBUG] New sequential file: /rocksdbtest/dbbench/CURRENT direct: 0
+2026/04/15-22:31:40.701649 1104 [DEBUG] New sequential file: /rocksdbtest/dbbench/MANIFEST-000001 direct: 0
+2026/04/15-22:31:40.703442 1104 [DEBUG] GetChildrenNoLock: /rocksdbtest/dbbench 
+2026/04/15-22:31:40.703543 1104 [DEBUG] CreatDirIfMissing: rocksdbtest/dbbench to aux: /home/femu/rocksdbTest/zenfs_aux/rocksdbtest/dbbench
+2026/04/15-22:31:40.703557 1104 [DEBUG] NewDirectory: rocksdbtest/dbbench to aux: /home/femu/rocksdbTest/zenfs_aux/rocksdbtest/dbbench
+2026/04/15-22:31:40.703575 1104 [DEBUG] GetChildrenNoLock: /rocksdbtest/dbbench 
+2026/04/15-22:31:40.703623 1104 [DEBUG] New writable file: /rocksdbtest/dbbench/000004.log direct: 0
+2026/04/15-22:31:40.704226 1104 [DEBUG] New writable file: /rocksdbtest/dbbench/MANIFEST-000005 direct: 0
+2026/04/15-22:31:40.704819 1104 Entering Apply Finish Threshold Function
+2026/04/15-22:31:40.704833 1104 [DEBUG] Allocating zone(new=0) start: 0xc000000 wp: 0xc000600 lt: 0 file lt: 0
+2026/04/15-22:31:40.704839 1104 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 1 0 63 99 1 1 1
+2026/04/15-22:31:40.704845 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:40.705902 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:40.706458 1104 [DEBUG] New writable file: /rocksdbtest/dbbench/000005.dbtmp direct: 0
+2026/04/15-22:31:40.707003 1104 Entering Apply Finish Threshold Function
+2026/04/15-22:31:40.707017 1104 [DEBUG] Allocating zone(new=1) start: 0x10000000 wp: 0x10000000 lt: 0 file lt: 0
+2026/04/15-22:31:40.707022 1104 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 1 0 63 99 1 2 2
+2026/04/15-22:31:40.707027 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000005.dbtmp
+2026/04/15-22:31:40.711154 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000005.dbtmp
+2026/04/15-22:31:40.711750 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000005.dbtmp
+2026/04/15-22:31:40.712290 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000005.dbtmp
+2026/04/15-22:31:40.712896 1104 [DEBUG] Rename file: /rocksdbtest/dbbench/000005.dbtmp to : /rocksdbtest/dbbench/CURRENT
+2026/04/15-22:31:40.715009 1104 [DEBUG] New writable file: /rocksdbtest/dbbench/OPTIONS-000006.dbtmp direct: 0
+2026/04/15-22:31:40.715831 1104 Entering Apply Finish Threshold Function
+2026/04/15-22:31:40.715845 1104 [DEBUG] Allocating zone(new=0) start: 0x10000000 wp: 0x10000200 lt: 0 file lt: 0
+2026/04/15-22:31:40.715851 1104 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 1 0 127 99 2 2 2
+2026/04/15-22:31:40.715857 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/OPTIONS-000006.dbtmp
+2026/04/15-22:31:40.716910 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/OPTIONS-000006.dbtmp
+2026/04/15-22:31:40.717441 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/OPTIONS-000006.dbtmp
+2026/04/15-22:31:40.717968 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/OPTIONS-000006.dbtmp
+2026/04/15-22:31:40.718579 1104 [DEBUG] New sequential file: /rocksdbtest/dbbench/OPTIONS-000006.dbtmp direct: 0
+2026/04/15-22:31:40.720006 1104 [DEBUG] GetFileSize: /rocksdbtest/dbbench/OPTIONS-000006.dbtmp 
+2026/04/15-22:31:40.720022 1104 [DEBUG] Rename file: /rocksdbtest/dbbench/OPTIONS-000006.dbtmp to : /rocksdbtest/dbbench/OPTIONS-000007
+2026/04/15-22:31:40.720601 1104 [DEBUG] NewDirectory: rocksdbtest/dbbench to aux: /home/femu/rocksdbTest/zenfs_aux/rocksdbtest/dbbench
+2026/04/15-22:31:40.721488 1104 [DEBUG] GetChildrenNoLock: /rocksdbtest/dbbench 
+2026/04/15-22:31:40.721580 1104 [DEBUG] GetChildrenNoLock: /rocksdbtest/dbbench 
+2026/04/15-22:31:40.721631 1104 [DEBUG] GetChildrenNoLock: /rocksdbtest/dbbench 
+2026/04/15-22:31:40.721691 1104 [DEBUG] DeleteFile: rocksdbtest/dbbench/MANIFEST-000001 
+2026/04/15-22:31:40.722241 1104 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 1 0 127 99 2 2 1
+2026/04/15-22:31:40.739181 1140 [DEBUG] Allocating zone(new=1) start: 0x14000000 wp: 0x14000000 lt: 2 file lt: 2
+2026/04/15-22:31:40.739191 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000004.log
+2026/04/15-22:31:41.063689 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000008.log direct: 0
+2026/04/15-22:31:41.064875 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000009.sst direct: 1
+2026/04/15-22:31:41.073276 1140 [DEBUG] Allocating zone(new=1) start: 0x18000000 wp: 0x18000000 lt: 2 file lt: 2
+2026/04/15-22:31:41.073283 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000008.log
+2026/04/15-22:31:41.075440 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:41.075455 1107 [DEBUG] Allocating zone(new=1) start: 0x1c000000 wp: 0x1c000000 lt: 3 file lt: 3
+2026/04/15-22:31:41.075460 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 2 15 176 92 3 5 4
+2026/04/15-22:31:41.075464 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000009.sst
+2026/04/15-22:31:41.259773 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000009.sst
+2026/04/15-22:31:41.260336 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000009.sst
+2026/04/15-22:31:41.260945 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000009.sst direct: 1
+2026/04/15-22:31:41.261194 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000009.sst 
+2026/04/15-22:31:41.263211 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:41.263852 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000009.sst 
+2026/04/15-22:31:41.279770 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000004.log
+2026/04/15-22:31:41.280495 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000004.log 
+2026/04/15-22:31:41.281172 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 2 17 238 93 4 4 2
+2026/04/15-22:31:41.397612 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000010.log direct: 0
+2026/04/15-22:31:41.398571 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000011.sst direct: 1
+2026/04/15-22:31:41.405448 1140 [DEBUG] Allocating zone(new=0) start: 0x1c000000 wp: 0x1c871000 lt: 3 file lt: 2
+2026/04/15-22:31:41.405471 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000010.log
+2026/04/15-22:31:41.408627 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:41.408641 1107 [DEBUG] Allocating zone(new=1) start: 0x14000000 wp: 0x14000000 lt: 3 file lt: 3
+2026/04/15-22:31:41.408646 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 2 23 232 90 4 5 4
+2026/04/15-22:31:41.408651 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000011.sst
+2026/04/15-22:31:41.601519 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000011.sst
+2026/04/15-22:31:41.606587 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000011.sst
+2026/04/15-22:31:41.614540 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000011.sst direct: 1
+2026/04/15-22:31:41.614820 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000011.sst 
+2026/04/15-22:31:41.616924 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:41.617573 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000011.sst 
+2026/04/15-22:31:41.625996 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000008.log
+2026/04/15-22:31:41.629132 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000008.log 
+2026/04/15-22:31:41.636905 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 2 27 228 89 4 4 2
+2026/04/15-22:31:41.726634 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000012.log direct: 0
+2026/04/15-22:31:41.727551 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000013.sst direct: 1
+2026/04/15-22:31:41.731635 1140 [DEBUG] Allocating zone(new=0) start: 0x14000000 wp: 0x1486d600 lt: 3 file lt: 2
+2026/04/15-22:31:41.731642 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000012.log
+2026/04/15-22:31:41.737847 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:41.737867 1107 [DEBUG] Allocating zone(new=1) start: 0x18000000 wp: 0x18000000 lt: 3 file lt: 3
+2026/04/15-22:31:41.737874 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 2 31 224 87 4 5 4
+2026/04/15-22:31:41.737881 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000013.sst
+2026/04/15-22:31:41.995007 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000013.sst
+2026/04/15-22:31:41.995579 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000013.sst
+2026/04/15-22:31:41.996201 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000013.sst direct: 1
+2026/04/15-22:31:41.996448 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000013.sst 
+2026/04/15-22:31:41.998468 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:41.999095 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000013.sst 
+2026/04/15-22:31:42.007935 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000010.log
+2026/04/15-22:31:42.008612 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000010.log 
+2026/04/15-22:31:42.009178 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 3 34 285 89 5 5 2
+2026/04/15-22:31:42.120915 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000014.log direct: 0
+2026/04/15-22:31:42.121826 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000015.sst direct: 1
+2026/04/15-22:31:42.125552 1140 [DEBUG] Allocating zone(new=0) start: 0x1c000000 wp: 0x1d801000 lt: 3 file lt: 2
+2026/04/15-22:31:42.125559 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000014.log
+2026/04/15-22:31:42.132131 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:42.132153 1107 [DEBUG] Allocating zone(new=1) start: 0x20000000 wp: 0x20000000 lt: 3 file lt: 3
+2026/04/15-22:31:42.132160 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 3 40 279 87 5 6 4
+2026/04/15-22:31:42.132167 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000015.sst
+2026/04/15-22:31:42.317599 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000015.sst
+2026/04/15-22:31:42.322587 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000015.sst
+2026/04/15-22:31:42.330389 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000015.sst direct: 1
+2026/04/15-22:31:42.330672 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000015.sst 
+2026/04/15-22:31:42.332812 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:42.333466 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000015.sst 
+2026/04/15-22:31:42.346487 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000012.log
+2026/04/15-22:31:42.352972 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000012.log 
+2026/04/15-22:31:42.356904 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 3 44 339 88 6 6 2
+2026/04/15-22:31:42.362244 1106 [DEBUG] New writable file: /rocksdbtest/dbbench/000016.sst direct: 1
+2026/04/15-22:31:42.381728 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:31:42.381747 1106 [DEBUG] Allocating zone(new=1) start: 0x24000000 wp: 0x24000000 lt: 3 file lt: 3
+2026/04/15-22:31:42.381753 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 3 45 338 88 6 7 3
+2026/04/15-22:31:42.381758 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000016.sst
+2026/04/15-22:31:42.487745 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000017.log direct: 0
+2026/04/15-22:31:42.498763 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000018.sst direct: 1
+2026/04/15-22:31:42.504647 1140 [DEBUG] Allocating zone(new=0) start: 0x20000000 wp: 0x20872400 lt: 3 file lt: 2
+2026/04/15-22:31:42.504657 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000017.log
+2026/04/15-22:31:42.508526 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:42.508540 1107 [DEBUG] Allocating zone(new=1) start: 0x28000000 wp: 0x28000000 lt: 3 file lt: 3
+2026/04/15-22:31:42.508544 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 3 48 335 87 7 8 5
+2026/04/15-22:31:42.508549 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000018.sst
+2026/04/15-22:31:42.794452 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000018.sst
+2026/04/15-22:31:42.798202 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000018.sst
+2026/04/15-22:31:42.798856 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000018.sst direct: 1
+2026/04/15-22:31:42.806133 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000018.sst 
+2026/04/15-22:31:42.810132 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:42.810836 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000018.sst 
+2026/04/15-22:31:42.823498 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000014.log
+2026/04/15-22:31:42.828027 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000014.log 
+2026/04/15-22:31:42.828613 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 3 52 395 88 8 8 3
+2026/04/15-22:31:42.928178 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000019.log direct: 0
+2026/04/15-22:31:42.929025 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000020.sst direct: 1
+2026/04/15-22:31:42.933245 1140 [DEBUG] Allocating zone(new=0) start: 0x28000000 wp: 0x28871000 lt: 3 file lt: 2
+2026/04/15-22:31:42.933252 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000019.log
+2026/04/15-22:31:42.952468 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:42.952481 1107 [DEBUG] Allocating zone(new=1) start: 0x2c000000 wp: 0x2c000000 lt: 3 file lt: 3
+2026/04/15-22:31:42.952486 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 3 57 390 87 8 9 5
+2026/04/15-22:31:42.952490 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000020.sst
+2026/04/15-22:31:43.225739 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000020.sst
+2026/04/15-22:31:43.226569 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000020.sst
+2026/04/15-22:31:43.227386 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000020.sst direct: 1
+2026/04/15-22:31:43.233991 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000020.sst 
+2026/04/15-22:31:43.236132 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:43.242617 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000020.sst 
+2026/04/15-22:31:43.259986 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000017.log
+2026/04/15-22:31:43.267660 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000017.log 
+2026/04/15-22:31:43.268246 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 4 61 450 87 9 9 3
+2026/04/15-22:31:43.295948 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000016.sst
+2026/04/15-22:31:43.296533 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000016.sst
+2026/04/15-22:31:43.297249 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000016.sst 
+2026/04/15-22:31:43.297281 1106 [DEBUG] New writable file: /rocksdbtest/dbbench/000021.sst direct: 1
+2026/04/15-22:31:43.301191 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:31:43.301207 1106 [DEBUG] Allocating zone(new=1) start: 0x30000000 wp: 0x30000000 lt: 3 file lt: 3
+2026/04/15-22:31:43.301214 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 4 94 481 83 9 10 3
+2026/04/15-22:31:43.301219 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000021.sst
+2026/04/15-22:31:43.307949 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000021.sst
+2026/04/15-22:31:43.308512 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000021.sst
+2026/04/15-22:31:43.309197 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000021.sst 
+2026/04/15-22:31:43.310332 1106 [DEBUG] New random access file: /rocksdbtest/dbbench/000016.sst direct: 1
+2026/04/15-22:31:43.310841 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000016.sst 
+2026/04/15-22:31:43.311318 1106 [DEBUG] New random access file: /rocksdbtest/dbbench/000021.sst direct: 1
+2026/04/15-22:31:43.315311 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000021.sst 
+2026/04/15-22:31:43.316176 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:43.316920 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000009.sst 
+2026/04/15-22:31:43.317591 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 4 87 488 84 9 9 2
+2026/04/15-22:31:43.317631 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000011.sst 
+2026/04/15-22:31:43.318275 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 4 79 432 84 8 8 2
+2026/04/15-22:31:43.318309 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000013.sst 
+2026/04/15-22:31:43.318947 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 4 70 377 84 7 7 2
+2026/04/15-22:31:43.318979 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000015.sst 
+2026/04/15-22:31:43.319614 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 4 62 321 83 6 6 2
+2026/04/15-22:31:43.361586 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000022.log direct: 0
+2026/04/15-22:31:43.362515 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000023.sst direct: 1
+2026/04/15-22:31:43.366249 1140 [DEBUG] Allocating zone(new=0) start: 0x30000000 wp: 0x3004ba00 lt: 3 file lt: 2
+2026/04/15-22:31:43.366256 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000022.log
+2026/04/15-22:31:43.372758 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:43.372778 1107 [DEBUG] Allocating zone(new=1) start: 0x14000000 wp: 0x14000000 lt: 3 file lt: 3
+2026/04/15-22:31:43.372801 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 4 64 319 83 6 7 4
+2026/04/15-22:31:43.372808 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000023.sst
+2026/04/15-22:31:43.629424 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000023.sst
+2026/04/15-22:31:43.630285 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000023.sst
+2026/04/15-22:31:43.630932 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000023.sst direct: 1
+2026/04/15-22:31:43.636902 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000023.sst 
+2026/04/15-22:31:43.638924 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:43.639582 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000023.sst 
+2026/04/15-22:31:43.659713 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000019.log
+2026/04/15-22:31:43.660433 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000019.log 
+2026/04/15-22:31:43.661004 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 4 67 380 84 7 7 2
+2026/04/15-22:31:43.754906 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000024.log direct: 0
+2026/04/15-22:31:43.755738 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000025.sst direct: 1
+2026/04/15-22:31:43.760040 1140 [DEBUG] Allocating zone(new=0) start: 0x2c000000 wp: 0x2c870e00 lt: 3 file lt: 2
+2026/04/15-22:31:43.760046 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000024.log
+2026/04/15-22:31:43.765965 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:43.765985 1107 [DEBUG] Allocating zone(new=1) start: 0x18000000 wp: 0x18000000 lt: 3 file lt: 3
+2026/04/15-22:31:43.765993 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 4 72 375 83 7 8 4
+2026/04/15-22:31:43.766000 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000025.sst
+2026/04/15-22:31:44.026695 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000025.sst
+2026/04/15-22:31:44.027276 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000025.sst
+2026/04/15-22:31:44.027985 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000025.sst direct: 1
+2026/04/15-22:31:44.034542 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000025.sst 
+2026/04/15-22:31:44.036529 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:44.037179 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000025.sst 
+2026/04/15-22:31:44.061261 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000022.log
+2026/04/15-22:31:44.066388 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000022.log 
+2026/04/15-22:31:44.077245 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 5 77 434 84 8 8 2
+2026/04/15-22:31:44.086213 1106 [DEBUG] New writable file: /rocksdbtest/dbbench/000026.sst direct: 1
+2026/04/15-22:31:44.097549 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:31:44.097566 1106 [DEBUG] Allocating zone(new=1) start: 0x1c000000 wp: 0x1c000000 lt: 3 file lt: 3
+2026/04/15-22:31:44.097572 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 5 78 433 84 8 9 3
+2026/04/15-22:31:44.097577 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000026.sst
+2026/04/15-22:31:44.192567 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000027.log direct: 0
+2026/04/15-22:31:44.193565 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000028.sst direct: 1
+2026/04/15-22:31:44.198998 1140 [DEBUG] Allocating zone(new=0) start: 0x30000000 wp: 0x30fdb200 lt: 3 file lt: 2
+2026/04/15-22:31:44.199008 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000027.log
+2026/04/15-22:31:44.203714 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:44.203726 1107 [DEBUG] Allocating zone(new=1) start: 0x20000000 wp: 0x20000000 lt: 3 file lt: 3
+2026/04/15-22:31:44.203741 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 5 81 430 84 9 10 5
+2026/04/15-22:31:44.203745 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000028.sst
+2026/04/15-22:31:44.387913 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000028.sst
+2026/04/15-22:31:44.388478 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000028.sst
+2026/04/15-22:31:44.389085 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000028.sst direct: 1
+2026/04/15-22:31:44.389318 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000028.sst 
+2026/04/15-22:31:44.391236 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:44.391841 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000028.sst 
+2026/04/15-22:31:44.416961 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000024.log
+2026/04/15-22:31:44.417667 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000024.log 
+2026/04/15-22:31:44.418238 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 5 80 495 85 10 10 3
+2026/04/15-22:31:44.685181 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000029.log direct: 0
+2026/04/15-22:31:44.686192 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000030.sst direct: 1
+2026/04/15-22:31:44.690735 1140 [DEBUG] Allocating zone(new=0) start: 0x2c000000 wp: 0x2d800600 lt: 3 file lt: 2
+2026/04/15-22:31:44.690742 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000029.log
+2026/04/15-22:31:44.696462 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:44.696482 1107 [DEBUG] Allocating zone(new=1) start: 0x34000000 wp: 0x34000000 lt: 3 file lt: 3
+2026/04/15-22:31:44.696489 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 5 89 486 84 10 11 5
+2026/04/15-22:31:44.696496 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000030.sst
+2026/04/15-22:31:45.206884 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000031.log direct: 0
+2026/04/15-22:31:45.230261 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000030.sst
+2026/04/15-22:31:45.230838 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000030.sst
+2026/04/15-22:31:45.231485 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000030.sst direct: 1
+2026/04/15-22:31:45.232943 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000026.sst
+2026/04/15-22:31:45.233102 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000030.sst 
+2026/04/15-22:31:45.233526 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000026.sst
+2026/04/15-22:31:45.234269 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000026.sst 
+2026/04/15-22:31:45.234306 1106 [DEBUG] New writable file: /rocksdbtest/dbbench/000032.sst direct: 1
+2026/04/15-22:31:45.236771 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:45.237437 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000030.sst 
+2026/04/15-22:31:45.245842 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000027.log
+2026/04/15-22:31:45.246095 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:31:45.246105 1106 [DEBUG] Allocating zone(new=1) start: 0x38000000 wp: 0x38000000 lt: 3 file lt: 3
+2026/04/15-22:31:45.246109 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 6 145 558 79 11 12 4
+2026/04/15-22:31:45.246113 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000032.sst
+2026/04/15-22:31:45.246540 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000027.log 
+2026/04/15-22:31:45.262009 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 6 130 573 81 12 12 3
+2026/04/15-22:31:45.262210 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000033.sst direct: 1
+2026/04/15-22:31:45.269426 1140 [DEBUG] Allocating zone(new=0) start: 0x34000000 wp: 0x34872a00 lt: 3 file lt: 2
+2026/04/15-22:31:45.269438 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000031.log
+2026/04/15-22:31:45.273317 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:45.273335 1107 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:31:45.273339 1107 [DEBUG] Allocating zone(new=0) start: 0x30000000 wp: 0x31f6b200 lt: 3 file lt: 3
+2026/04/15-22:31:45.273345 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 6 130 573 81 12 12 5
+2026/04/15-22:31:45.273351 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000033.sst
+2026/04/15-22:31:45.522355 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000033.sst
+2026/04/15-22:31:45.535583 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000033.sst
+2026/04/15-22:31:45.536642 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000033.sst direct: 1
+2026/04/15-22:31:45.541966 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000033.sst 
+2026/04/15-22:31:45.544376 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:45.545043 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000033.sst 
+2026/04/15-22:31:45.567643 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000029.log
+2026/04/15-22:31:45.573235 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000029.log 
+2026/04/15-22:31:45.573820 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 6 134 569 80 12 12 3
+2026/04/15-22:31:45.655308 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000034.log direct: 0
+2026/04/15-22:31:45.666871 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000035.sst direct: 1
+2026/04/15-22:31:45.672752 1140 [DEBUG] Allocating zone(new=0) start: 0x30000000 wp: 0x327dd000 lt: 3 file lt: 2
+2026/04/15-22:31:45.672761 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000034.log
+2026/04/15-22:31:45.677290 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:45.677307 1107 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:31:45.677311 1107 [DEBUG] Allocating zone(new=0) start: 0x2c000000 wp: 0x2e790200 lt: 3 file lt: 3
+2026/04/15-22:31:45.677318 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 6 138 565 80 12 12 5
+2026/04/15-22:31:45.677324 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000035.sst
+2026/04/15-22:31:46.003120 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000036.log direct: 0
+2026/04/15-22:31:46.026506 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000035.sst
+2026/04/15-22:31:46.038509 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000035.sst
+2026/04/15-22:31:46.039181 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000035.sst direct: 1
+2026/04/15-22:31:46.039456 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000035.sst 
+2026/04/15-22:31:46.041601 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:46.042262 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000035.sst 
+2026/04/15-22:31:46.051030 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000031.log
+2026/04/15-22:31:46.065411 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000031.log 
+2026/04/15-22:31:46.065994 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 7 147 556 79 12 12 3
+2026/04/15-22:31:46.066175 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000037.sst direct: 1
+2026/04/15-22:31:46.073089 1140 [DEBUG] Allocating zone(new=0) start: 0x34000000 wp: 0x35803000 lt: 3 file lt: 2
+2026/04/15-22:31:46.073099 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000036.log
+2026/04/15-22:31:46.075468 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:46.075482 1107 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:31:46.075484 1107 [DEBUG] Allocating zone(new=0) start: 0x2c000000 wp: 0x2f002400 lt: 3 file lt: 3
+2026/04/15-22:31:46.075489 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 7 147 556 79 12 12 5
+2026/04/15-22:31:46.075494 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000037.sst
+2026/04/15-22:31:46.095344 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000032.sst
+2026/04/15-22:31:46.095915 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000032.sst
+2026/04/15-22:31:46.096594 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000032.sst 
+2026/04/15-22:31:46.097737 1106 [DEBUG] New random access file: /rocksdbtest/dbbench/000026.sst direct: 1
+2026/04/15-22:31:46.110991 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000026.sst 
+2026/04/15-22:31:46.111567 1106 [DEBUG] New random access file: /rocksdbtest/dbbench/000032.sst direct: 1
+2026/04/15-22:31:46.112196 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000032.sst 
+2026/04/15-22:31:46.113390 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:46.192763 1106 [DEBUG] New writable file: /rocksdbtest/dbbench/000038.sst direct: 1
+2026/04/15-22:31:46.202306 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:31:46.202323 1106 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:31:46.202326 1106 [DEBUG] Allocating zone(new=0) start: 0x38000000 wp: 0x39e5bc00 lt: 3 file lt: 3
+2026/04/15-22:31:46.202332 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 7 181 586 76 12 12 5
+2026/04/15-22:31:46.202336 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000038.sst
+2026/04/15-22:31:46.441696 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000039.log direct: 0
+2026/04/15-22:31:46.467109 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000037.sst
+2026/04/15-22:31:46.467691 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000037.sst
+2026/04/15-22:31:46.468317 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000037.sst direct: 1
+2026/04/15-22:31:46.468563 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000037.sst 
+2026/04/15-22:31:46.470669 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:46.471310 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000037.sst 
+2026/04/15-22:31:46.480466 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000034.log
+2026/04/15-22:31:46.486367 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000016.sst 
+2026/04/15-22:31:46.487087 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 7 169 534 75 11 11 3
+2026/04/15-22:31:46.487139 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000018.sst 
+2026/04/15-22:31:46.487782 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 7 160 479 74 10 10 3
+2026/04/15-22:31:46.487817 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000020.sst 
+2026/04/15-22:31:46.488370 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 7 152 487 76 10 10 3
+2026/04/15-22:31:46.488410 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000021.sst 
+2026/04/15-22:31:46.488961 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 7 152 487 76 10 10 3
+2026/04/15-22:31:46.488993 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000023.sst 
+2026/04/15-22:31:46.489637 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 7 143 432 75 9 9 3
+2026/04/15-22:31:46.489670 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000025.sst 
+2026/04/15-22:31:46.490504 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 7 135 376 73 8 8 3
+2026/04/15-22:31:46.490542 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000034.log 
+2026/04/15-22:31:46.491100 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 7 119 392 76 8 8 3
+2026/04/15-22:31:46.491317 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000040.sst direct: 1
+2026/04/15-22:31:46.497608 1140 [DEBUG] Allocating zone(new=0) start: 0x30000000 wp: 0x3376d200 lt: 3 file lt: 2
+2026/04/15-22:31:46.497619 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000039.log
+2026/04/15-22:31:46.500188 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:46.500195 1107 Finishing zone: Entering Finish()
+2026/04/15-22:31:46.692562 1140 [DEBUG] Allocating zone(new=0) start: 0x20000000 wp: 0x2086c000 lt: 3 file lt: 2
+2026/04/15-22:31:46.692576 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000039.log
+2026/04/15-22:31:46.750248 1107 [DEBUG] Allocating zone(new=1) start: 0x14000000 wp: 0x14000000 lt: 3 file lt: 3
+2026/04/15-22:31:46.750265 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 7 129 382 74 6 7 5
+2026/04/15-22:31:46.750274 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000040.sst
+2026/04/15-22:31:46.877480 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000041.log direct: 0
+2026/04/15-22:31:46.954619 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000040.sst
+2026/04/15-22:31:46.955184 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000040.sst
+2026/04/15-22:31:46.955822 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000040.sst direct: 1
+2026/04/15-22:31:46.956057 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000040.sst 
+2026/04/15-22:31:46.958166 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:46.958796 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000040.sst 
+2026/04/15-22:31:46.967099 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000036.log
+2026/04/15-22:31:46.974456 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000036.log 
+2026/04/15-22:31:46.975037 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 7 128 447 77 7 7 3
+2026/04/15-22:31:46.975236 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000042.sst direct: 1
+2026/04/15-22:31:46.981290 1140 [DEBUG] Allocating zone(new=0) start: 0x34000000 wp: 0x36792600 lt: 3 file lt: 2
+2026/04/15-22:31:46.981301 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000041.log
+2026/04/15-22:31:46.984450 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:46.984463 1107 [DEBUG] Allocating zone(new=1) start: 0x18000000 wp: 0x18000000 lt: 3 file lt: 3
+2026/04/15-22:31:46.984468 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 7 128 447 77 7 8 5
+2026/04/15-22:31:46.984473 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000042.sst
+2026/04/15-22:31:47.209453 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000038.sst
+2026/04/15-22:31:47.210030 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000038.sst
+2026/04/15-22:31:47.210761 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000038.sst 
+2026/04/15-22:31:47.210798 1106 [DEBUG] New writable file: /rocksdbtest/dbbench/000043.sst direct: 1
+2026/04/15-22:31:47.223832 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:31:47.223838 1106 Finishing zone: Entering Finish()
+2026/04/15-22:31:47.246441 1106 [DEBUG] Allocating zone(new=1) start: 0x24000000 wp: 0x24000000 lt: 3 file lt: 3
+2026/04/15-22:31:47.246452 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 8 169 406 70 7 8 5
+2026/04/15-22:31:47.246459 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000043.sst
+2026/04/15-22:31:47.252466 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000042.sst
+2026/04/15-22:31:47.253039 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000042.sst
+2026/04/15-22:31:47.254024 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000042.sst direct: 1
+2026/04/15-22:31:47.284466 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000042.sst 
+2026/04/15-22:31:47.286657 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:47.287323 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000042.sst 
+2026/04/15-22:31:47.295651 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000039.log
+2026/04/15-22:31:47.296340 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000039.log 
+2026/04/15-22:31:47.296919 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 8 163 476 74 8 8 3
+2026/04/15-22:31:47.425404 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000044.log direct: 0
+2026/04/15-22:31:47.426384 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000045.sst direct: 1
+2026/04/15-22:31:47.432147 1140 [DEBUG] Allocating zone(new=0) start: 0x20000000 wp: 0x20f69400 lt: 3 file lt: 2
+2026/04/15-22:31:47.432157 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000044.log
+2026/04/15-22:31:47.436263 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:47.436274 1107 [DEBUG] Allocating zone(new=1) start: 0x28000000 wp: 0x28000000 lt: 3 file lt: 3
+2026/04/15-22:31:47.436278 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 8 168 471 73 8 9 5
+2026/04/15-22:31:47.436282 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000045.sst
+2026/04/15-22:31:47.685757 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000045.sst
+2026/04/15-22:31:47.697676 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000045.sst
+2026/04/15-22:31:47.698335 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000045.sst direct: 1
+2026/04/15-22:31:47.698597 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000045.sst 
+2026/04/15-22:31:47.700825 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:47.701481 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000045.sst 
+2026/04/15-22:31:47.722144 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000041.log
+2026/04/15-22:31:47.722835 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000041.log 
+2026/04/15-22:31:47.723413 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 8 172 531 75 9 9 3
+2026/04/15-22:31:47.830234 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000046.log direct: 0
+2026/04/15-22:31:47.831133 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000047.sst direct: 1
+2026/04/15-22:31:47.837015 1140 [DEBUG] Allocating zone(new=0) start: 0x34000000 wp: 0x37722800 lt: 3 file lt: 2
+2026/04/15-22:31:47.837025 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000046.log
+2026/04/15-22:31:47.840562 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:47.840575 1107 [DEBUG] Allocating zone(new=1) start: 0x3c000000 wp: 0x3c000000 lt: 3 file lt: 3
+2026/04/15-22:31:47.840580 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 8 177 526 74 9 10 5
+2026/04/15-22:31:47.840584 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000047.sst
+2026/04/15-22:31:48.167065 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000047.sst
+2026/04/15-22:31:48.167653 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000047.sst
+2026/04/15-22:31:48.168292 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000047.sst direct: 1
+2026/04/15-22:31:48.173963 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000047.sst 
+2026/04/15-22:31:48.176286 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:48.176937 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000047.sst 
+2026/04/15-22:31:48.185274 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000044.log
+2026/04/15-22:31:48.185959 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000044.log 
+2026/04/15-22:31:48.186530 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 9 176 591 76 10 10 3
+2026/04/15-22:31:48.264970 1140 [DEBUG] Allocating zone(new=0) start: 0x3c000000 wp: 0x3c872800 lt: 3 file lt: 2
+2026/04/15-22:31:48.264985 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000046.log
+2026/04/15-22:31:48.298133 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000043.sst
+2026/04/15-22:31:48.298714 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000043.sst
+2026/04/15-22:31:48.299458 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000043.sst 
+2026/04/15-22:31:48.299492 1106 [DEBUG] New writable file: /rocksdbtest/dbbench/000048.sst direct: 1
+2026/04/15-22:31:48.328578 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:31:48.328602 1106 [DEBUG] Allocating zone(new=1) start: 0x40000000 wp: 0x40000000 lt: 3 file lt: 3
+2026/04/15-22:31:48.328610 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 9 212 619 74 9 10 3
+2026/04/15-22:31:48.328616 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000048.sst
+2026/04/15-22:31:48.422869 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000049.log direct: 0
+2026/04/15-22:31:48.423711 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000050.sst direct: 1
+2026/04/15-22:31:48.427537 1140 [DEBUG] Allocating zone(new=0) start: 0x28000000 wp: 0x28871000 lt: 3 file lt: 2
+2026/04/15-22:31:48.427544 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000049.log
+2026/04/15-22:31:48.433897 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:48.433917 1107 [DEBUG] Allocating zone(new=1) start: 0x44000000 wp: 0x44000000 lt: 3 file lt: 3
+2026/04/15-22:31:48.433925 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 9 217 614 73 10 11 5
+2026/04/15-22:31:48.433932 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000050.sst
+2026/04/15-22:31:48.652978 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000050.sst
+2026/04/15-22:31:48.673392 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000050.sst
+2026/04/15-22:31:48.687903 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000050.sst direct: 1
+2026/04/15-22:31:48.692054 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000050.sst 
+2026/04/15-22:31:48.694184 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:48.694832 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000050.sst 
+2026/04/15-22:31:48.704477 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000046.log
+2026/04/15-22:31:48.724370 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000046.log 
+2026/04/15-22:31:48.739151 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 9 223 672 75 11 11 3
+2026/04/15-22:31:48.822616 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000051.log direct: 0
+2026/04/15-22:31:48.833748 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000052.sst direct: 1
+2026/04/15-22:31:48.839493 1140 [DEBUG] Allocating zone(new=0) start: 0x44000000 wp: 0x44871000 lt: 3 file lt: 2
+2026/04/15-22:31:48.839501 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000051.log
+2026/04/15-22:31:48.843886 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:48.843905 1107 [DEBUG] Allocating zone(new=1) start: 0x48000000 wp: 0x48000000 lt: 3 file lt: 3
+2026/04/15-22:31:48.843912 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 9 226 669 74 11 12 5
+2026/04/15-22:31:48.843918 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000052.sst
+2026/04/15-22:31:49.091644 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000052.sst
+2026/04/15-22:31:49.105041 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000052.sst
+2026/04/15-22:31:49.105706 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000052.sst direct: 1
+2026/04/15-22:31:49.105958 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000052.sst 
+2026/04/15-22:31:49.108103 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:49.108758 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000052.sst 
+2026/04/15-22:31:49.117517 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000049.log
+2026/04/15-22:31:49.132082 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000049.log 
+2026/04/15-22:31:49.132673 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 10 229 730 76 12 12 3
+2026/04/15-22:31:49.156707 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000048.sst
+2026/04/15-22:31:49.157250 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000048.sst
+2026/04/15-22:31:49.157913 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000048.sst 
+2026/04/15-22:31:49.159051 1106 [DEBUG] New random access file: /rocksdbtest/dbbench/000038.sst direct: 1
+2026/04/15-22:31:49.159535 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000038.sst 
+2026/04/15-22:31:49.159858 1106 [DEBUG] New random access file: /rocksdbtest/dbbench/000043.sst direct: 1
+2026/04/15-22:31:49.165112 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000043.sst 
+2026/04/15-22:31:49.165570 1106 [DEBUG] New random access file: /rocksdbtest/dbbench/000048.sst direct: 1
+2026/04/15-22:31:49.166017 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000048.sst 
+2026/04/15-22:31:49.167063 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:49.167782 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000026.sst 
+2026/04/15-22:31:49.168436 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 10 225 734 76 11 11 2
+2026/04/15-22:31:49.168472 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000028.sst 
+2026/04/15-22:31:49.169092 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 10 217 678 75 10 10 2
+2026/04/15-22:31:49.169120 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000030.sst 
+2026/04/15-22:31:49.169734 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 10 208 623 74 10 10 2
+2026/04/15-22:31:49.169763 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000032.sst 
+2026/04/15-22:31:49.170303 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 10 178 653 78 10 10 2
+2026/04/15-22:31:49.170330 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000033.sst 
+2026/04/15-22:31:49.170965 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 10 169 598 77 10 10 2
+2026/04/15-22:31:49.170993 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000035.sst 
+2026/04/15-22:31:49.171534 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 10 161 606 78 10 10 2
+2026/04/15-22:31:49.232415 1106 [DEBUG] New writable file: /rocksdbtest/dbbench/000053.sst direct: 1
+2026/04/15-22:31:49.243970 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:31:49.243983 1106 [DEBUG] Allocating zone(new=1) start: 0x1c000000 wp: 0x1c000000 lt: 3 file lt: 3
+2026/04/15-22:31:49.243987 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 10 164 603 78 10 11 3
+2026/04/15-22:31:49.243990 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000053.sst
+2026/04/15-22:31:49.246163 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000054.log direct: 0
+2026/04/15-22:31:49.247099 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000055.sst direct: 1
+2026/04/15-22:31:49.252818 1140 [DEBUG] Allocating zone(new=0) start: 0x48000000 wp: 0x48870e00 lt: 3 file lt: 2
+2026/04/15-22:31:49.252823 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000054.log
+2026/04/15-22:31:49.256694 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:49.256710 1107 [DEBUG] Allocating zone(new=1) start: 0x20000000 wp: 0x20000000 lt: 3 file lt: 3
+2026/04/15-22:31:49.256716 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 10 164 603 78 10 12 5
+2026/04/15-22:31:49.256722 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000055.sst
+2026/04/15-22:31:49.634395 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000055.sst
+2026/04/15-22:31:49.634972 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000055.sst
+2026/04/15-22:31:49.635912 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000055.sst direct: 1
+2026/04/15-22:31:49.663330 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000055.sst 
+2026/04/15-22:31:49.665371 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:49.666016 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000055.sst 
+2026/04/15-22:31:49.700630 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000051.log
+2026/04/15-22:31:49.701406 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000051.log 
+2026/04/15-22:31:49.701976 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 10 168 663 79 12 12 3
+2026/04/15-22:31:49.820187 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000056.log direct: 0
+2026/04/15-22:31:49.821107 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000057.sst direct: 1
+2026/04/15-22:31:49.826985 1140 [DEBUG] Allocating zone(new=0) start: 0x44000000 wp: 0x45801600 lt: 3 file lt: 2
+2026/04/15-22:31:49.826995 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000056.log
+2026/04/15-22:31:49.830481 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:49.830495 1107 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:31:49.830498 1107 [DEBUG] Allocating zone(new=0) start: 0x40000000 wp: 0x419f7200 lt: 3 file lt: 3
+2026/04/15-22:31:49.830503 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 10 172 659 79 12 12 5
+2026/04/15-22:31:49.830508 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000057.sst
+2026/04/15-22:31:50.011825 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000057.sst
+2026/04/15-22:31:50.012405 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000057.sst
+2026/04/15-22:31:50.013044 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000057.sst direct: 1
+2026/04/15-22:31:50.013295 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000057.sst 
+2026/04/15-22:31:50.015499 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:50.016169 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000057.sst 
+2026/04/15-22:31:50.031432 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000054.log
+2026/04/15-22:31:50.032133 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000054.log 
+2026/04/15-22:31:50.032708 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 11 173 658 79 12 12 3
+2026/04/15-22:31:50.272203 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000058.log direct: 0
+2026/04/15-22:31:50.273181 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000059.sst direct: 1
+2026/04/15-22:31:50.278941 1140 [DEBUG] Allocating zone(new=0) start: 0x48000000 wp: 0x49800400 lt: 3 file lt: 2
+2026/04/15-22:31:50.278950 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000058.log
+2026/04/15-22:31:50.282796 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:50.282808 1107 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:31:50.282810 1107 [DEBUG] Allocating zone(new=0) start: 0x40000000 wp: 0x42265a00 lt: 3 file lt: 3
+2026/04/15-22:31:50.282815 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 11 181 650 78 12 12 5
+2026/04/15-22:31:50.282818 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000059.sst
+2026/04/15-22:31:50.394573 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000053.sst
+2026/04/15-22:31:50.409127 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000053.sst
+2026/04/15-22:31:50.409914 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000053.sst 
+2026/04/15-22:31:50.409952 1106 [DEBUG] New writable file: /rocksdbtest/dbbench/000060.sst direct: 1
+2026/04/15-22:31:50.462947 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:31:50.462969 1106 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:31:50.462973 1106 [DEBUG] Allocating zone(new=0) start: 0x3c000000 wp: 0x3cf25400 lt: 3 file lt: 3
+2026/04/15-22:31:50.462980 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 11 220 675 75 12 12 5
+2026/04/15-22:31:50.462986 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000060.sst
+2026/04/15-22:31:50.489088 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000059.sst
+2026/04/15-22:31:50.489659 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000059.sst
+2026/04/15-22:31:50.490285 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000059.sst direct: 1
+2026/04/15-22:31:50.490527 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000059.sst 
+2026/04/15-22:31:50.492696 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:50.493336 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000059.sst 
+2026/04/15-22:31:50.539911 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000056.log
+2026/04/15-22:31:50.540629 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000056.log 
+2026/04/15-22:31:50.541200 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 11 216 679 75 12 12 3
+2026/04/15-22:31:50.621500 1105 Zone Garbage Stats: [47 7 0 1 0 2 0 0 0 1 0 0 ]
+2026/04/15-22:31:50.621516 1105 Total Garbage Bytes: 131135484 bytes
+2026/04/15-22:31:50.689853 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000061.log direct: 0
+2026/04/15-22:31:50.690760 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000062.sst direct: 1
+2026/04/15-22:31:50.696154 1140 [DEBUG] Allocating zone(new=0) start: 0x44000000 wp: 0x46791600 lt: 3 file lt: 2
+2026/04/15-22:31:50.696160 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000061.log
+2026/04/15-22:31:50.700906 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:50.700925 1107 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:31:50.700929 1107 [DEBUG] Allocating zone(new=0) start: 0x40000000 wp: 0x42ad4600 lt: 3 file lt: 3
+2026/04/15-22:31:50.700937 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 11 221 674 75 12 12 5
+2026/04/15-22:31:50.700943 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000062.sst
+2026/04/15-22:31:50.881311 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000062.sst
+2026/04/15-22:31:50.881896 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000062.sst
+2026/04/15-22:31:50.882521 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000062.sst direct: 1
+2026/04/15-22:31:50.882763 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000062.sst 
+2026/04/15-22:31:50.884896 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:50.885542 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000062.sst 
+2026/04/15-22:31:50.897074 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000058.log
+2026/04/15-22:31:50.897768 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000058.log 
+2026/04/15-22:31:50.898338 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 11 219 676 75 12 12 3
+2026/04/15-22:31:51.257635 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000063.log direct: 0
+2026/04/15-22:31:51.258636 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000064.sst direct: 1
+2026/04/15-22:31:51.263210 1140 [DEBUG] Allocating zone(new=0) start: 0x48000000 wp: 0x4a78fc00 lt: 3 file lt: 2
+2026/04/15-22:31:51.263231 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000063.log
+2026/04/15-22:31:51.268880 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:51.268892 1107 Finishing zone: Entering Finish()
+2026/04/15-22:31:51.565986 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000060.sst
+2026/04/15-22:31:51.567059 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000060.sst
+2026/04/15-22:31:51.568711 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000060.sst 
+2026/04/15-22:31:51.568749 1106 [DEBUG] New writable file: /rocksdbtest/dbbench/000065.sst direct: 1
+2026/04/15-22:31:51.595512 1107 [DEBUG] Allocating zone(new=1) start: 0x30000000 wp: 0x30000000 lt: 3 file lt: 3
+2026/04/15-22:31:51.595531 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 12 275 620 69 11 12 4
+2026/04/15-22:31:51.595540 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000064.sst
+2026/04/15-22:31:51.600171 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:31:51.600194 1106 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:31:51.600198 1106 [DEBUG] Allocating zone(new=0) start: 0x3c000000 wp: 0x3ef50c00 lt: 3 file lt: 3
+2026/04/15-22:31:51.600205 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 12 275 620 69 11 12 5
+2026/04/15-22:31:51.600211 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000065.sst
+2026/04/15-22:31:51.643360 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000066.log direct: 0
+2026/04/15-22:31:51.784755 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000064.sst
+2026/04/15-22:31:51.785332 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000064.sst
+2026/04/15-22:31:51.785980 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000064.sst direct: 1
+2026/04/15-22:31:51.786229 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000064.sst 
+2026/04/15-22:31:51.788401 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:51.789050 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000064.sst 
+2026/04/15-22:31:51.809030 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000061.log
+2026/04/15-22:31:51.809719 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000061.log 
+2026/04/15-22:31:51.810288 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 12 270 689 71 12 12 3
+2026/04/15-22:31:51.810468 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000067.sst direct: 1
+2026/04/15-22:31:51.816766 1140 [DEBUG] Allocating zone(new=0) start: 0x44000000 wp: 0x47720e00 lt: 3 file lt: 2
+2026/04/15-22:31:51.816776 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000066.log
+2026/04/15-22:31:51.820563 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:51.820577 1107 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:31:51.820580 1107 [DEBUG] Allocating zone(new=0) start: 0x30000000 wp: 0x30872200 lt: 3 file lt: 3
+2026/04/15-22:31:51.820586 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 12 270 689 71 12 12 5
+2026/04/15-22:31:51.820591 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000067.sst
+2026/04/15-22:31:52.040569 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000067.sst
+2026/04/15-22:31:52.041141 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000067.sst
+2026/04/15-22:31:52.041766 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000067.sst direct: 1
+2026/04/15-22:31:52.042010 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000067.sst 
+2026/04/15-22:31:52.044154 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:52.044796 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000067.sst 
+2026/04/15-22:31:52.059647 1140 [DEBUG] Allocating zone(new=0) start: 0x30000000 wp: 0x310e4800 lt: 3 file lt: 2
+2026/04/15-22:31:52.059660 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000066.log
+2026/04/15-22:31:52.068165 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000063.log
+2026/04/15-22:31:52.068865 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000063.log 
+2026/04/15-22:31:52.069436 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 13 273 686 71 11 11 3
+2026/04/15-22:31:52.127877 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:31:52.127888 1106 Finishing zone: Entering Finish()
+2026/04/15-22:31:52.198029 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000068.log direct: 0
+2026/04/15-22:31:52.198981 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000069.sst direct: 1
+2026/04/15-22:31:52.204057 1140 [DEBUG] Allocating zone(new=0) start: 0x28000000 wp: 0x29801600 lt: 3 file lt: 2
+2026/04/15-22:31:52.204066 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000068.log
+2026/04/15-22:31:52.209375 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:52.209395 1107 [DEBUG] Allocating zone(new=1) start: 0x34000000 wp: 0x34000000 lt: 3 file lt: 3
+2026/04/15-22:31:52.209402 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 13 296 663 69 10 11 4
+2026/04/15-22:31:52.209409 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000069.sst
+2026/04/15-22:31:52.338653 1106 [DEBUG] Allocating zone(new=1) start: 0x4c000000 wp: 0x4c000000 lt: 3 file lt: 3
+2026/04/15-22:31:52.338671 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 13 302 657 68 10 11 5
+2026/04/15-22:31:52.338683 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000065.sst
+2026/04/15-22:31:52.453063 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000069.sst
+2026/04/15-22:31:52.453645 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000069.sst
+2026/04/15-22:31:52.454283 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000069.sst direct: 1
+2026/04/15-22:31:52.469018 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000069.sst 
+2026/04/15-22:31:52.477078 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:52.484136 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000069.sst 
+2026/04/15-22:31:52.492473 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000066.log
+2026/04/15-22:31:52.500256 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000066.log 
+2026/04/15-22:31:52.507935 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 13 303 720 70 11 11 3
+2026/04/15-22:31:52.532362 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000070.log direct: 0
+2026/04/15-22:31:52.533250 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000071.sst direct: 1
+2026/04/15-22:31:52.539079 1140 [DEBUG] Allocating zone(new=0) start: 0x34000000 wp: 0x34870800 lt: 3 file lt: 2
+2026/04/15-22:31:52.539088 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000070.log
+2026/04/15-22:31:52.543079 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:52.543091 1107 [DEBUG] Allocating zone(new=1) start: 0x50000000 wp: 0x50000000 lt: 3 file lt: 3
+2026/04/15-22:31:52.543095 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 13 304 719 70 11 12 5
+2026/04/15-22:31:52.543099 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000071.sst
+2026/04/15-22:31:52.760818 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000071.sst
+2026/04/15-22:31:52.766403 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000071.sst
+2026/04/15-22:31:52.767066 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000071.sst direct: 1
+2026/04/15-22:31:52.767321 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000071.sst 
+2026/04/15-22:31:52.770100 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:52.770753 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000071.sst 
+2026/04/15-22:31:52.779678 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000068.log
+2026/04/15-22:31:52.780382 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000068.log 
+2026/04/15-22:31:52.780954 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 13 304 783 71 12 12 3
+2026/04/15-22:31:52.863296 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000065.sst
+2026/04/15-22:31:52.863887 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000065.sst
+2026/04/15-22:31:52.864616 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000065.sst 
+2026/04/15-22:31:52.864651 1106 [DEBUG] New writable file: /rocksdbtest/dbbench/000072.sst direct: 1
+2026/04/15-22:31:52.877266 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:31:52.877277 1106 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:31:52.877279 1106 [DEBUG] Allocating zone(new=0) start: 0x50000000 wp: 0x50876600 lt: 3 file lt: 3
+2026/04/15-22:31:52.877283 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 13 323 828 71 12 12 3
+2026/04/15-22:31:52.877287 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000072.sst
+2026/04/15-22:31:52.973656 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000073.log direct: 0
+2026/04/15-22:31:52.974516 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000074.sst direct: 1
+2026/04/15-22:31:52.978454 1140 [DEBUG] Allocating zone(new=0) start: 0x4c000000 wp: 0x4cf7c000 lt: 3 file lt: 2
+2026/04/15-22:31:52.978460 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000073.log
+2026/04/15-22:31:52.985667 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:52.985686 1107 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:31:52.985690 1107 [DEBUG] Allocating zone(new=0) start: 0x30000000 wp: 0x31794e00 lt: 3 file lt: 3
+2026/04/15-22:31:52.985697 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 13 328 823 71 12 12 5
+2026/04/15-22:31:52.985703 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000074.sst
+2026/04/15-22:31:53.242384 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000074.sst
+2026/04/15-22:31:53.242967 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000074.sst
+2026/04/15-22:31:53.243611 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000074.sst direct: 1
+2026/04/15-22:31:53.243866 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000074.sst 
+2026/04/15-22:31:53.249072 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:53.249925 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000074.sst 
+2026/04/15-22:31:53.273468 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000070.log
+2026/04/15-22:31:53.287681 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000070.log 
+2026/04/15-22:31:53.288266 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 14 334 817 70 12 12 3
+2026/04/15-22:31:53.319373 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000075.log direct: 0
+2026/04/15-22:31:53.322760 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000076.sst direct: 1
+2026/04/15-22:31:53.328215 1140 [DEBUG] Allocating zone(new=0) start: 0x34000000 wp: 0x35800a00 lt: 3 file lt: 2
+2026/04/15-22:31:53.328224 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000075.log
+2026/04/15-22:31:53.332989 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:53.333002 1107 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:31:53.333004 1107 [DEBUG] Allocating zone(new=0) start: 0x30000000 wp: 0x32005a00 lt: 3 file lt: 3
+2026/04/15-22:31:53.333009 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 14 336 815 70 12 12 5
+2026/04/15-22:31:53.333014 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000076.sst
+2026/04/15-22:31:53.612358 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000076.sst
+2026/04/15-22:31:53.612923 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000076.sst
+2026/04/15-22:31:53.613542 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000076.sst direct: 1
+2026/04/15-22:31:53.613792 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000076.sst 
+2026/04/15-22:31:53.630053 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:53.630745 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000076.sst 
+2026/04/15-22:31:53.644101 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000073.log
+2026/04/15-22:31:53.652660 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000073.log 
+2026/04/15-22:31:53.653261 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 14 344 807 70 12 12 3
+2026/04/15-22:31:53.677863 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000077.log direct: 0
+2026/04/15-22:31:53.681618 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000078.sst direct: 1
+2026/04/15-22:31:53.686614 1140 [DEBUG] Allocating zone(new=0) start: 0x4c000000 wp: 0x4df0c200 lt: 3 file lt: 2
+2026/04/15-22:31:53.686621 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000077.log
+2026/04/15-22:31:53.692869 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:53.692889 1107 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:31:53.692893 1107 [DEBUG] Allocating zone(new=0) start: 0x30000000 wp: 0x32875a00 lt: 3 file lt: 3
+2026/04/15-22:31:53.692900 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 14 345 806 70 12 12 5
+2026/04/15-22:31:53.692906 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000078.sst
+2026/04/15-22:31:53.793024 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000072.sst
+2026/04/15-22:31:53.797726 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000072.sst
+2026/04/15-22:31:53.798498 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000072.sst 
+2026/04/15-22:31:53.798534 1106 [DEBUG] New writable file: /rocksdbtest/dbbench/000079.sst direct: 1
+2026/04/15-22:31:53.809533 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:31:53.809545 1106 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:31:53.809548 1106 [DEBUG] Allocating zone(new=0) start: 0x50000000 wp: 0x528a1800 lt: 3 file lt: 3
+2026/04/15-22:31:53.809553 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 14 383 768 66 12 12 5
+2026/04/15-22:31:53.809557 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000079.sst
+2026/04/15-22:31:53.955571 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000079.sst
+2026/04/15-22:31:53.956133 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000079.sst
+2026/04/15-22:31:53.957857 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000079.sst 
+2026/04/15-22:31:53.958994 1106 [DEBUG] New random access file: /rocksdbtest/dbbench/000053.sst direct: 1
+2026/04/15-22:31:53.959580 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000053.sst 
+2026/04/15-22:31:53.960056 1106 [DEBUG] New random access file: /rocksdbtest/dbbench/000060.sst direct: 1
+2026/04/15-22:31:53.960573 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000060.sst 
+2026/04/15-22:31:53.961038 1106 [DEBUG] New random access file: /rocksdbtest/dbbench/000065.sst direct: 1
+2026/04/15-22:31:53.961553 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000065.sst 
+2026/04/15-22:31:53.962003 1106 [DEBUG] New random access file: /rocksdbtest/dbbench/000072.sst direct: 1
+2026/04/15-22:31:53.969487 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000072.sst 
+2026/04/15-22:31:53.969983 1106 [DEBUG] New random access file: /rocksdbtest/dbbench/000079.sst direct: 1
+2026/04/15-22:31:53.975752 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000079.sst 
+2026/04/15-22:31:53.976667 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:53.988596 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000078.sst
+2026/04/15-22:31:53.992742 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000078.sst
+2026/04/15-22:31:53.993616 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000078.sst direct: 1
+2026/04/15-22:31:53.997870 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000078.sst 
+2026/04/15-22:31:54.011419 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:54.012062 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000080.log direct: 0
+2026/04/15-22:31:54.012154 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000078.sst 
+2026/04/15-22:31:54.023640 1140 [DEBUG] Allocating zone(new=0) start: 0x50000000 wp: 0x52df4200 lt: 3 file lt: 2
+2026/04/15-22:31:54.023647 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000080.log
+2026/04/15-22:31:54.038888 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000075.log
+2026/04/15-22:31:54.045558 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000037.sst 
+2026/04/15-22:31:54.050095 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 15 399 688 63 12 12 3
+2026/04/15-22:31:54.050162 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000038.sst 
+2026/04/15-22:31:54.051234 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 15 367 656 64 12 12 3
+2026/04/15-22:31:54.051271 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000040.sst 
+2026/04/15-22:31:54.058623 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 15 358 601 62 11 11 3
+2026/04/15-22:31:54.058688 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000042.sst 
+2026/04/15-22:31:54.060807 1106 [DEBUG] New writable file: /rocksdbtest/dbbench/000081.sst direct: 1
+2026/04/15-22:31:54.068518 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 15 351 544 60 10 10 3
+2026/04/15-22:31:54.068579 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000043.sst 
+2026/04/15-22:31:54.069746 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 15 319 512 61 9 9 3
+2026/04/15-22:31:54.069785 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000045.sst 
+2026/04/15-22:31:54.070454 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 15 310 457 59 8 8 3
+2026/04/15-22:31:54.070489 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000047.sst 
+2026/04/15-22:31:54.071040 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 15 302 465 60 8 8 3
+2026/04/15-22:31:54.071073 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000048.sst 
+2026/04/15-22:31:54.071618 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 15 276 491 64 8 8 3
+2026/04/15-22:31:54.071652 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000050.sst 
+2026/04/15-22:31:54.072293 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 15 267 436 61 8 8 3
+2026/04/15-22:31:54.072326 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000052.sst 
+2026/04/15-22:31:54.072967 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 15 259 380 59 8 8 3
+2026/04/15-22:31:54.072998 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000075.log 
+2026/04/15-22:31:54.073548 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 15 243 396 61 8 8 3
+2026/04/15-22:31:54.073713 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000082.sst direct: 1
+2026/04/15-22:31:54.080567 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:31:54.080577 1106 [DEBUG] Allocating zone(new=1) start: 0x14000000 wp: 0x14000000 lt: 3 file lt: 3
+2026/04/15-22:31:54.080580 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 15 243 396 61 8 9 4
+2026/04/15-22:31:54.080584 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000081.sst
+2026/04/15-22:31:54.082489 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:54.082501 1107 [DEBUG] Allocating zone(new=1) start: 0x18000000 wp: 0x18000000 lt: 3 file lt: 3
+2026/04/15-22:31:54.082506 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 15 243 396 61 8 10 5
+2026/04/15-22:31:54.082510 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000082.sst
+2026/04/15-22:31:54.338236 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000083.log direct: 0
+2026/04/15-22:31:54.415121 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000082.sst
+2026/04/15-22:31:54.415707 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000082.sst
+2026/04/15-22:31:54.416360 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000082.sst direct: 1
+2026/04/15-22:31:54.416612 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000082.sst 
+2026/04/15-22:31:54.419507 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:54.420156 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000082.sst 
+2026/04/15-22:31:54.441307 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000077.log
+2026/04/15-22:31:54.442459 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000077.log 
+2026/04/15-22:31:54.446729 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 15 250 453 64 10 10 3
+2026/04/15-22:31:54.446959 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000084.sst direct: 1
+2026/04/15-22:31:54.453135 1140 [DEBUG] Allocating zone(new=0) start: 0x4c000000 wp: 0x4ee9c400 lt: 3 file lt: 2
+2026/04/15-22:31:54.453145 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000083.log
+2026/04/15-22:31:54.456609 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:54.456623 1107 [DEBUG] Allocating zone(new=1) start: 0x24000000 wp: 0x24000000 lt: 3 file lt: 3
+2026/04/15-22:31:54.456629 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 15 250 453 64 10 11 5
+2026/04/15-22:31:54.456634 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000084.sst
+2026/04/15-22:31:54.656195 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000084.sst
+2026/04/15-22:31:54.656768 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000084.sst
+2026/04/15-22:31:54.657403 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000084.sst direct: 1
+2026/04/15-22:31:54.657646 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000084.sst 
+2026/04/15-22:31:54.659825 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:54.660457 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000084.sst 
+2026/04/15-22:31:54.669229 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000080.log
+2026/04/15-22:31:54.669911 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000080.log 
+2026/04/15-22:31:54.670477 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 15 250 517 67 11 11 3
+2026/04/15-22:31:54.866821 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000085.log direct: 0
+2026/04/15-22:31:54.867841 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000086.sst direct: 1
+2026/04/15-22:31:54.873288 1140 [DEBUG] Allocating zone(new=0) start: 0x50000000 wp: 0x53d83400 lt: 3 file lt: 2
+2026/04/15-22:31:54.873297 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000085.log
+2026/04/15-22:31:54.877792 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:54.877802 1107 [DEBUG] Allocating zone(new=1) start: 0x28000000 wp: 0x28000000 lt: 3 file lt: 3
+2026/04/15-22:31:54.877807 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 15 258 509 66 11 12 5
+2026/04/15-22:31:54.877810 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000086.sst
+2026/04/15-22:31:54.927305 1140 [DEBUG] Allocating zone(new=0) start: 0x34000000 wp: 0x36791200 lt: 3 file lt: 2
+2026/04/15-22:31:54.927314 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000085.log
+2026/04/15-22:31:55.127925 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000081.sst
+2026/04/15-22:31:55.128508 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000081.sst
+2026/04/15-22:31:55.129248 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000081.sst 
+2026/04/15-22:31:55.129286 1106 [DEBUG] New writable file: /rocksdbtest/dbbench/000087.sst direct: 1
+2026/04/15-22:31:55.141123 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:31:55.141135 1106 [DEBUG] Allocating zone(new=1) start: 0x2c000000 wp: 0x2c000000 lt: 3 file lt: 3
+2026/04/15-22:31:55.141140 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 16 298 533 64 11 12 5
+2026/04/15-22:31:55.141142 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000087.sst
+2026/04/15-22:31:55.344189 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000088.log direct: 0
+2026/04/15-22:31:55.379539 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000086.sst
+2026/04/15-22:31:55.380115 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000086.sst
+2026/04/15-22:31:55.380751 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000086.sst direct: 1
+2026/04/15-22:31:55.394098 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000086.sst 
+2026/04/15-22:31:55.396381 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:55.397032 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000086.sst 
+2026/04/15-22:31:55.405801 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000083.log
+2026/04/15-22:31:55.406494 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000083.log 
+2026/04/15-22:31:55.407065 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 16 299 596 66 12 12 3
+2026/04/15-22:31:55.408251 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000089.sst direct: 1
+2026/04/15-22:31:55.415595 1140 [DEBUG] Allocating zone(new=0) start: 0x4c000000 wp: 0x4fe2ca00 lt: 3 file lt: 2
+2026/04/15-22:31:55.415606 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000088.log
+2026/04/15-22:31:55.418078 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:55.418094 1107 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:31:55.418097 1107 [DEBUG] Allocating zone(new=0) start: 0x30000000 wp: 0x330e4a00 lt: 3 file lt: 3
+2026/04/15-22:31:55.418103 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 16 299 596 66 12 12 5
+2026/04/15-22:31:55.418109 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000089.sst
+2026/04/15-22:31:55.468164 1140 [DEBUG] Allocating zone(new=0) start: 0x28000000 wp: 0x28874a00 lt: 3 file lt: 2
+2026/04/15-22:31:55.468179 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000088.log
+2026/04/15-22:31:55.626552 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000089.sst
+2026/04/15-22:31:55.630752 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000089.sst
+2026/04/15-22:31:55.631859 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000089.sst direct: 1
+2026/04/15-22:31:55.635786 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000089.sst 
+2026/04/15-22:31:55.640894 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:55.641599 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000089.sst 
+2026/04/15-22:31:55.653757 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000085.log
+2026/04/15-22:31:55.656360 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000085.log 
+2026/04/15-22:31:55.656954 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 16 299 596 66 11 11 3
+2026/04/15-22:31:55.892591 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000090.log direct: 0
+2026/04/15-22:31:55.893495 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000091.sst direct: 1
+2026/04/15-22:31:55.898600 1140 [DEBUG] Allocating zone(new=0) start: 0x34000000 wp: 0x374a4400 lt: 3 file lt: 2
+2026/04/15-22:31:55.898606 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000090.log
+2026/04/15-22:31:55.903711 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:55.903723 1107 Finishing zone: Entering Finish()
+2026/04/15-22:31:56.032233 1107 [DEBUG] Allocating zone(new=1) start: 0x38000000 wp: 0x38000000 lt: 3 file lt: 3
+2026/04/15-22:31:56.032251 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 17 312 583 65 10 11 5
+2026/04/15-22:31:56.032260 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000091.sst
+2026/04/15-22:31:56.256052 1140 [DEBUG] Allocating zone(new=0) start: 0x24000000 wp: 0x24872400 lt: 3 file lt: 2
+2026/04/15-22:31:56.256065 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000090.log
+2026/04/15-22:31:56.352466 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000092.log direct: 0
+2026/04/15-22:31:56.360801 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000087.sst
+2026/04/15-22:31:56.361381 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000087.sst
+2026/04/15-22:31:56.362107 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000087.sst 
+2026/04/15-22:31:56.362142 1106 [DEBUG] New writable file: /rocksdbtest/dbbench/000093.sst direct: 1
+2026/04/15-22:31:56.378458 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:31:56.378476 1106 [DEBUG] Allocating zone(new=1) start: 0x44000000 wp: 0x44000000 lt: 3 file lt: 3
+2026/04/15-22:31:56.378483 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 17 354 605 63 10 11 5
+2026/04/15-22:31:56.378487 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000093.sst
+2026/04/15-22:31:56.400517 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000091.sst
+2026/04/15-22:31:56.401095 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000091.sst
+2026/04/15-22:31:56.401730 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000091.sst direct: 1
+2026/04/15-22:31:56.401980 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000091.sst 
+2026/04/15-22:31:56.404414 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:56.405071 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000091.sst 
+2026/04/15-22:31:56.413411 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000088.log
+2026/04/15-22:31:56.424972 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000088.log 
+2026/04/15-22:31:56.425556 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 17 348 675 65 11 11 3
+2026/04/15-22:31:56.425752 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000094.sst direct: 1
+2026/04/15-22:31:56.432988 1140 [DEBUG] Allocating zone(new=0) start: 0x38000000 wp: 0x38870800 lt: 3 file lt: 2
+2026/04/15-22:31:56.432999 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000092.log
+2026/04/15-22:31:56.434969 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:56.434981 1107 [DEBUG] Allocating zone(new=1) start: 0x48000000 wp: 0x48000000 lt: 3 file lt: 3
+2026/04/15-22:31:56.434986 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 17 348 675 65 11 12 5
+2026/04/15-22:31:56.434990 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000094.sst
+2026/04/15-22:31:56.794873 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000095.log direct: 0
+2026/04/15-22:31:56.821083 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000094.sst
+2026/04/15-22:31:56.821668 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000094.sst
+2026/04/15-22:31:56.822306 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000094.sst direct: 1
+2026/04/15-22:31:56.822572 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000094.sst 
+2026/04/15-22:31:56.825013 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:56.825674 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000094.sst 
+2026/04/15-22:31:56.833998 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000090.log
+2026/04/15-22:31:56.849001 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000090.log 
+2026/04/15-22:31:56.849586 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 17 356 731 67 12 12 3
+2026/04/15-22:31:56.849775 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000096.sst direct: 1
+2026/04/15-22:31:56.856222 1140 [DEBUG] Allocating zone(new=0) start: 0x48000000 wp: 0x4886d200 lt: 3 file lt: 2
+2026/04/15-22:31:56.856234 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000095.log
+2026/04/15-22:31:56.859077 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:56.859088 1107 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:31:56.859090 1107 [DEBUG] Allocating zone(new=0) start: 0x2c000000 wp: 0x2e02b400 lt: 3 file lt: 3
+2026/04/15-22:31:56.859094 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 17 356 731 67 12 12 5
+2026/04/15-22:31:56.859098 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000096.sst
+2026/04/15-22:31:57.152882 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000096.sst
+2026/04/15-22:31:57.156894 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000096.sst
+2026/04/15-22:31:57.157558 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000096.sst direct: 1
+2026/04/15-22:31:57.157813 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000096.sst 
+2026/04/15-22:31:57.160237 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:57.160882 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000096.sst 
+2026/04/15-22:31:57.169203 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000092.log
+2026/04/15-22:31:57.179406 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000092.log 
+2026/04/15-22:31:57.180006 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 18 359 728 66 12 12 3
+2026/04/15-22:31:57.289433 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000093.sst
+2026/04/15-22:31:57.289994 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000093.sst
+2026/04/15-22:31:57.290687 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000093.sst 
+2026/04/15-22:31:57.290716 1106 [DEBUG] New writable file: /rocksdbtest/dbbench/000097.sst direct: 1
+2026/04/15-22:31:57.298621 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000098.log direct: 0
+2026/04/15-22:31:57.299542 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000099.sst direct: 1
+2026/04/15-22:31:57.303250 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:31:57.303259 1106 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:31:57.303261 1106 [DEBUG] Allocating zone(new=0) start: 0x44000000 wp: 0x4602b600 lt: 3 file lt: 3
+2026/04/15-22:31:57.303265 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 18 397 754 65 12 12 3
+2026/04/15-22:31:57.303268 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000097.sst
+2026/04/15-22:31:57.303757 1140 [DEBUG] Allocating zone(new=0) start: 0x38000000 wp: 0x397ffe00 lt: 3 file lt: 2
+2026/04/15-22:31:57.303763 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000098.log
+2026/04/15-22:31:57.309683 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:57.309700 1107 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:31:57.309704 1107 [DEBUG] Allocating zone(new=0) start: 0x2c000000 wp: 0x2e899000 lt: 3 file lt: 3
+2026/04/15-22:31:57.309711 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 18 397 754 65 12 12 5
+2026/04/15-22:31:57.309717 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000099.sst
+2026/04/15-22:31:57.603653 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000099.sst
+2026/04/15-22:31:57.604236 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000099.sst
+2026/04/15-22:31:57.604869 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000099.sst direct: 1
+2026/04/15-22:31:57.611077 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000099.sst 
+2026/04/15-22:31:57.625861 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:57.626658 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000099.sst 
+2026/04/15-22:31:57.642285 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000095.log
+2026/04/15-22:31:57.652037 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000095.log 
+2026/04/15-22:31:57.652624 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 18 401 750 65 12 12 3
+2026/04/15-22:31:57.744118 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000100.log direct: 0
+2026/04/15-22:31:57.747109 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000101.sst direct: 1
+2026/04/15-22:31:57.752094 1140 [DEBUG] Allocating zone(new=0) start: 0x48000000 wp: 0x497fd800 lt: 3 file lt: 2
+2026/04/15-22:31:57.752102 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000100.log
+2026/04/15-22:31:57.757364 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:57.757383 1107 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:31:57.757386 1107 [DEBUG] Allocating zone(new=0) start: 0x2c000000 wp: 0x2f109a00 lt: 3 file lt: 3
+2026/04/15-22:31:57.757393 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 18 405 746 64 12 12 5
+2026/04/15-22:31:57.757400 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000101.sst
+2026/04/15-22:31:58.110810 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000102.log direct: 0
+2026/04/15-22:31:58.132474 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000101.sst
+2026/04/15-22:31:58.138957 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000101.sst
+2026/04/15-22:31:58.139611 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000101.sst direct: 1
+2026/04/15-22:31:58.139860 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000101.sst 
+2026/04/15-22:31:58.142255 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:58.142919 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000101.sst 
+2026/04/15-22:31:58.155527 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000098.log
+2026/04/15-22:31:58.156221 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000098.log 
+2026/04/15-22:31:58.156789 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 19 414 737 64 12 12 3
+2026/04/15-22:31:58.156987 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000103.sst direct: 1
+2026/04/15-22:31:58.167056 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:58.167066 1107 Finishing zone: Entering Finish()
+2026/04/15-22:31:58.219772 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:31:58.219791 1106 [DEBUG] Allocating zone(new=1) start: 0x54000000 wp: 0x54000000 lt: 3 file lt: 3
+2026/04/15-22:31:58.219796 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 19 446 705 61 11 12 3
+2026/04/15-22:31:58.219800 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000097.sst
+2026/04/15-22:31:58.230278 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000097.sst
+2026/04/15-22:31:58.230908 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000097.sst
+2026/04/15-22:31:58.231573 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000097.sst 
+2026/04/15-22:31:58.231597 1106 [DEBUG] New writable file: /rocksdbtest/dbbench/000104.sst direct: 1
+2026/04/15-22:31:58.246373 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:31:58.246390 1106 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:31:58.246392 1106 [DEBUG] Allocating zone(new=0) start: 0x54000000 wp: 0x54056a00 lt: 3 file lt: 3
+2026/04/15-22:31:58.246398 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 19 446 769 63 12 12 3
+2026/04/15-22:31:58.246402 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000104.sst
+2026/04/15-22:31:58.268754 1107 [DEBUG] Allocating zone(new=1) start: 0x58000000 wp: 0x58000000 lt: 3 file lt: 3
+2026/04/15-22:31:58.268770 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 19 446 769 63 11 12 4
+2026/04/15-22:31:58.268780 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000103.sst
+2026/04/15-22:31:58.280430 1140 [DEBUG] Allocating zone(new=0) start: 0x38000000 wp: 0x3a78fa00 lt: 3 file lt: 2
+2026/04/15-22:31:58.280441 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000102.log
+2026/04/15-22:31:58.564546 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000103.sst
+2026/04/15-22:31:58.566560 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000103.sst
+2026/04/15-22:31:58.567292 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000103.sst direct: 1
+2026/04/15-22:31:58.567659 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000103.sst 
+2026/04/15-22:31:58.582517 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:58.583246 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000103.sst 
+2026/04/15-22:31:58.591592 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000100.log
+2026/04/15-22:31:58.605715 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000100.log 
+2026/04/15-22:31:58.606298 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 19 442 837 65 12 12 3
+2026/04/15-22:31:59.171557 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000104.sst
+2026/04/15-22:31:59.172107 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000104.sst
+2026/04/15-22:31:59.172761 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000104.sst 
+2026/04/15-22:31:59.172789 1106 [DEBUG] New writable file: /rocksdbtest/dbbench/000105.sst direct: 1
+2026/04/15-22:31:59.184066 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:31:59.184077 1106 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:31:59.184078 1106 [DEBUG] Allocating zone(new=0) start: 0x58000000 wp: 0x5886fe00 lt: 3 file lt: 3
+2026/04/15-22:31:59.184082 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 20 479 800 62 12 12 3
+2026/04/15-22:31:59.184086 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000105.sst
+2026/04/15-22:31:59.843797 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000105.sst
+2026/04/15-22:31:59.844378 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000105.sst
+2026/04/15-22:31:59.845079 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000105.sst 
+2026/04/15-22:31:59.846672 1106 [DEBUG] New random access file: /rocksdbtest/dbbench/000081.sst direct: 1
+2026/04/15-22:31:59.847212 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000081.sst 
+2026/04/15-22:31:59.847682 1106 [DEBUG] New random access file: /rocksdbtest/dbbench/000087.sst direct: 1
+2026/04/15-22:31:59.848183 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000087.sst 
+2026/04/15-22:31:59.848602 1106 [DEBUG] New random access file: /rocksdbtest/dbbench/000093.sst direct: 1
+2026/04/15-22:31:59.849097 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000093.sst 
+2026/04/15-22:31:59.849513 1106 [DEBUG] New random access file: /rocksdbtest/dbbench/000097.sst direct: 1
+2026/04/15-22:31:59.850026 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000097.sst 
+2026/04/15-22:31:59.850484 1106 [DEBUG] New random access file: /rocksdbtest/dbbench/000104.sst direct: 1
+2026/04/15-22:31:59.850987 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000104.sst 
+2026/04/15-22:31:59.851494 1106 [DEBUG] New random access file: /rocksdbtest/dbbench/000105.sst direct: 1
+2026/04/15-22:31:59.851932 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000105.sst 
+2026/04/15-22:31:59.853060 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:31:59.853916 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000053.sst 
+2026/04/15-22:31:59.854659 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 20 477 738 60 11 11 2
+2026/04/15-22:31:59.854702 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000055.sst 
+2026/04/15-22:31:59.855372 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 20 468 683 59 10 10 2
+2026/04/15-22:31:59.855407 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000057.sst 
+2026/04/15-22:31:59.855966 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 20 460 691 60 10 10 2
+2026/04/15-22:31:59.855999 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000059.sst 
+2026/04/15-22:31:59.856547 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 20 451 700 60 10 10 2
+2026/04/15-22:31:59.856579 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000060.sst 
+2026/04/15-22:31:59.857126 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 20 419 732 63 10 10 2
+2026/04/15-22:31:59.857159 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000062.sst 
+2026/04/15-22:31:59.858078 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 20 411 676 62 10 10 2
+2026/04/15-22:31:59.858111 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000064.sst 
+2026/04/15-22:31:59.858660 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 20 402 685 62 10 10 2
+2026/04/15-22:31:59.858693 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000065.sst 
+2026/04/15-22:31:59.859423 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 20 370 589 61 10 10 2
+2026/04/15-22:31:59.859454 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000067.sst 
+2026/04/15-22:31:59.860005 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 20 362 597 62 10 10 2
+2026/04/15-22:31:59.860034 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000069.sst 
+2026/04/15-22:31:59.860654 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 20 353 542 60 10 10 2
+2026/04/15-22:31:59.860684 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000071.sst 
+2026/04/15-22:31:59.861228 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 20 345 550 61 10 10 2
+2026/04/15-22:31:59.861257 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000072.sst 
+2026/04/15-22:31:59.861798 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 20 313 582 65 10 10 2
+2026/04/15-22:31:59.861827 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000074.sst 
+2026/04/15-22:31:59.862368 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 20 304 591 65 10 10 2
+2026/04/15-22:31:59.862397 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000076.sst 
+2026/04/15-22:31:59.862940 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 20 296 599 66 10 10 2
+2026/04/15-22:31:59.862969 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000079.sst 
+2026/04/15-22:31:59.863591 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 20 291 540 65 10 10 2
+2026/04/15-22:31:59.945550 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000106.log direct: 0
+2026/04/15-22:31:59.950819 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000107.sst direct: 1
+2026/04/15-22:31:59.955834 1140 [DEBUG] Allocating zone(new=0) start: 0x58000000 wp: 0x5a2bf600 lt: 3 file lt: 2
+2026/04/15-22:31:59.955842 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000106.log
+2026/04/15-22:31:59.963777 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:31:59.963793 1107 [DEBUG] Allocating zone(new=1) start: 0x1c000000 wp: 0x1c000000 lt: 3 file lt: 3
+2026/04/15-22:31:59.963799 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 20 295 536 64 10 11 4
+2026/04/15-22:31:59.963804 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000107.sst
+2026/04/15-22:31:59.964577 1106 [DEBUG] New writable file: /rocksdbtest/dbbench/000108.sst direct: 1
+2026/04/15-22:31:59.995759 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:31:59.995777 1106 [DEBUG] Allocating zone(new=1) start: 0x20000000 wp: 0x20000000 lt: 3 file lt: 3
+2026/04/15-22:31:59.995782 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 20 296 535 64 10 12 5
+2026/04/15-22:31:59.995787 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000108.sst
+2026/04/15-22:32:00.301325 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000109.log direct: 0
+2026/04/15-22:32:00.322982 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000107.sst
+2026/04/15-22:32:00.323573 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000107.sst
+2026/04/15-22:32:00.324215 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000107.sst direct: 1
+2026/04/15-22:32:00.324470 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000107.sst 
+2026/04/15-22:32:00.326919 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:32:00.327592 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000107.sst 
+2026/04/15-22:32:00.342060 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000102.log
+2026/04/15-22:32:00.342758 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000102.log 
+2026/04/15-22:32:00.343335 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 21 303 592 66 12 12 3
+2026/04/15-22:32:00.343514 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000110.sst direct: 1
+2026/04/15-22:32:00.350773 1140 [DEBUG] Allocating zone(new=0) start: 0x54000000 wp: 0x56081800 lt: 3 file lt: 2
+2026/04/15-22:32:00.350785 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000109.log
+2026/04/15-22:32:00.353736 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:32:00.353747 1107 Finishing zone: Entering Finish()
+2026/04/15-22:32:00.621719 1105 Zone Garbage Stats: [46 6 1 1 0 1 0 0 1 0 0 0 ]
+2026/04/15-22:32:00.621739 1105 Total Garbage Bytes: 93874678 bytes
+2026/04/15-22:32:00.672998 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000111.log direct: 0
+2026/04/15-22:32:00.684903 1107 [DEBUG] Allocating zone(new=1) start: 0x34000000 wp: 0x34000000 lt: 3 file lt: 3
+2026/04/15-22:32:00.684921 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 21 318 577 64 11 12 5
+2026/04/15-22:32:00.684931 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000110.sst
+2026/04/15-22:32:00.910857 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000108.sst
+2026/04/15-22:32:00.911430 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000108.sst
+2026/04/15-22:32:00.912159 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000108.sst 
+2026/04/15-22:32:00.912197 1106 [DEBUG] New writable file: /rocksdbtest/dbbench/000112.sst direct: 1
+2026/04/15-22:32:00.933878 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:32:00.933893 1106 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:32:00.933896 1106 [DEBUG] Allocating zone(new=0) start: 0x48000000 wp: 0x4a78d000 lt: 3 file lt: 3
+2026/04/15-22:32:00.933902 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 21 350 609 63 12 12 5
+2026/04/15-22:32:00.933906 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000112.sst
+2026/04/15-22:32:00.957361 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000110.sst
+2026/04/15-22:32:00.957930 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000110.sst
+2026/04/15-22:32:00.958561 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000110.sst direct: 1
+2026/04/15-22:32:00.958806 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000110.sst 
+2026/04/15-22:32:00.960969 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:32:00.961607 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000110.sst 
+2026/04/15-22:32:00.969912 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000106.log
+2026/04/15-22:32:00.970592 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000106.log 
+2026/04/15-22:32:00.971154 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 21 344 679 66 12 12 3
+2026/04/15-22:32:00.971362 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000113.sst direct: 1
+2026/04/15-22:32:00.978582 1140 [DEBUG] Allocating zone(new=0) start: 0x58000000 wp: 0x5b24ee00 lt: 3 file lt: 2
+2026/04/15-22:32:00.978593 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000111.log
+2026/04/15-22:32:00.981382 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:32:00.981391 1107 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:32:00.981393 1107 [DEBUG] Allocating zone(new=0) start: 0x34000000 wp: 0x34872e00 lt: 3 file lt: 3
+2026/04/15-22:32:00.981396 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 21 344 679 66 12 12 5
+2026/04/15-22:32:00.981399 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000113.sst
+2026/04/15-22:32:01.263185 1140 [DEBUG] Allocating zone(new=0) start: 0x28000000 wp: 0x29630c00 lt: 3 file lt: 2
+2026/04/15-22:32:01.263196 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000111.log
+2026/04/15-22:32:01.287952 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000113.sst
+2026/04/15-22:32:01.288521 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000113.sst
+2026/04/15-22:32:01.289145 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000113.sst direct: 1
+2026/04/15-22:32:01.316851 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000113.sst 
+2026/04/15-22:32:01.320800 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000114.log direct: 0
+2026/04/15-22:32:01.320898 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:32:01.322080 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000113.sst 
+2026/04/15-22:32:01.330391 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000109.log
+2026/04/15-22:32:01.331720 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000109.log 
+2026/04/15-22:32:01.332297 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 22 352 671 65 11 11 3
+2026/04/15-22:32:01.332488 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000115.sst direct: 1
+2026/04/15-22:32:01.338301 1140 [DEBUG] Allocating zone(new=0) start: 0x54000000 wp: 0x57011000 lt: 3 file lt: 2
+2026/04/15-22:32:01.338312 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000114.log
+2026/04/15-22:32:01.342503 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:32:01.342521 1107 [DEBUG] Allocating zone(new=1) start: 0x3c000000 wp: 0x3c000000 lt: 3 file lt: 3
+2026/04/15-22:32:01.342528 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 22 352 671 65 11 12 5
+2026/04/15-22:32:01.342535 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000115.sst
+2026/04/15-22:32:01.675436 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000115.sst
+2026/04/15-22:32:01.679647 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000116.log direct: 0
+2026/04/15-22:32:01.680224 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000115.sst
+2026/04/15-22:32:01.685362 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000115.sst direct: 1
+2026/04/15-22:32:01.685624 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000115.sst 
+2026/04/15-22:32:01.690691 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:32:01.691385 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000115.sst 
+2026/04/15-22:32:01.699713 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000111.log
+2026/04/15-22:32:01.704622 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000111.log 
+2026/04/15-22:32:01.705483 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 22 360 727 66 12 12 3
+2026/04/15-22:32:01.705671 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000117.sst direct: 1
+2026/04/15-22:32:01.712876 1140 [DEBUG] Allocating zone(new=0) start: 0x3c000000 wp: 0x3c874400 lt: 3 file lt: 2
+2026/04/15-22:32:01.712886 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000116.log
+2026/04/15-22:32:01.715883 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:32:01.715901 1107 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:32:01.715905 1107 [DEBUG] Allocating zone(new=0) start: 0x34000000 wp: 0x350e1a00 lt: 3 file lt: 3
+2026/04/15-22:32:01.715911 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 22 360 727 66 12 12 5
+2026/04/15-22:32:01.715917 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000117.sst
+2026/04/15-22:32:01.749293 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:32:01.749309 1106 [DEBUG] Allocating zone(new=1) start: 0x40000000 wp: 0x40000000 lt: 3 file lt: 3
+2026/04/15-22:32:01.749315 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 22 386 701 64 11 12 5
+2026/04/15-22:32:01.749319 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000112.sst
+2026/04/15-22:32:01.988382 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000112.sst
+2026/04/15-22:32:01.988923 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000112.sst
+2026/04/15-22:32:01.989558 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000112.sst 
+2026/04/15-22:32:01.989581 1106 [DEBUG] New writable file: /rocksdbtest/dbbench/000118.sst direct: 1
+2026/04/15-22:32:02.000289 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:32:02.000298 1106 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:32:02.000299 1106 [DEBUG] Allocating zone(new=0) start: 0x40000000 wp: 0x407b7c00 lt: 3 file lt: 3
+2026/04/15-22:32:02.000302 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 22 405 746 64 12 12 5
+2026/04/15-22:32:02.000305 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000118.sst
+2026/04/15-22:32:02.074730 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000119.log direct: 0
+2026/04/15-22:32:02.101344 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000117.sst
+2026/04/15-22:32:02.110716 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000117.sst
+2026/04/15-22:32:02.111396 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000117.sst direct: 1
+2026/04/15-22:32:02.111648 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000117.sst 
+2026/04/15-22:32:02.114047 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:32:02.114700 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000117.sst 
+2026/04/15-22:32:02.137421 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000114.log
+2026/04/15-22:32:02.138114 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000114.log 
+2026/04/15-22:32:02.138681 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 23 401 750 65 12 12 3
+2026/04/15-22:32:02.138850 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000120.sst direct: 1
+2026/04/15-22:32:02.145018 1140 [DEBUG] Allocating zone(new=0) start: 0x54000000 wp: 0x57fa0800 lt: 3 file lt: 2
+2026/04/15-22:32:02.145029 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000119.log
+2026/04/15-22:32:02.148922 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:32:02.148940 1107 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:32:02.148944 1107 [DEBUG] Allocating zone(new=0) start: 0x34000000 wp: 0x35955400 lt: 3 file lt: 3
+2026/04/15-22:32:02.148950 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 23 401 750 65 12 12 5
+2026/04/15-22:32:02.148956 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000120.sst
+2026/04/15-22:32:02.163791 1140 [DEBUG] Allocating zone(new=0) start: 0x28000000 wp: 0x2980ee00 lt: 3 file lt: 2
+2026/04/15-22:32:02.163804 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000119.log
+2026/04/15-22:32:02.511576 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000121.log direct: 0
+2026/04/15-22:32:02.523983 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000120.sst
+2026/04/15-22:32:02.524555 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000120.sst
+2026/04/15-22:32:02.525187 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000120.sst direct: 1
+2026/04/15-22:32:02.525433 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000120.sst 
+2026/04/15-22:32:02.527624 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:32:02.528264 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000120.sst 
+2026/04/15-22:32:02.536585 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000116.log
+2026/04/15-22:32:02.550733 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000116.log 
+2026/04/15-22:32:02.551322 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 23 410 741 64 11 11 3
+2026/04/15-22:32:02.551533 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000122.sst direct: 1
+2026/04/15-22:32:02.557587 1140 [DEBUG] Allocating zone(new=0) start: 0x3c000000 wp: 0x3d804400 lt: 3 file lt: 2
+2026/04/15-22:32:02.557598 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000121.log
+2026/04/15-22:32:02.561801 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:32:02.561820 1107 [DEBUG] Allocating zone(new=1) start: 0x4c000000 wp: 0x4c000000 lt: 3 file lt: 3
+2026/04/15-22:32:02.561827 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 23 410 741 64 11 12 5
+2026/04/15-22:32:02.561833 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000122.sst
+2026/04/15-22:32:02.887021 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000118.sst
+2026/04/15-22:32:02.887585 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000118.sst
+2026/04/15-22:32:02.888312 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000118.sst 
+2026/04/15-22:32:02.888349 1106 [DEBUG] New writable file: /rocksdbtest/dbbench/000123.sst direct: 1
+2026/04/15-22:32:02.895372 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000124.log direct: 0
+2026/04/15-22:32:02.899768 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:32:02.899778 1106 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:32:02.899779 1106 [DEBUG] Allocating zone(new=0) start: 0x40000000 wp: 0x427e2c00 lt: 3 file lt: 3
+2026/04/15-22:32:02.899783 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 23 457 694 60 12 12 5
+2026/04/15-22:32:02.899786 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000123.sst
+2026/04/15-22:32:02.917946 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000122.sst
+2026/04/15-22:32:02.918518 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000122.sst
+2026/04/15-22:32:02.919147 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000122.sst direct: 1
+2026/04/15-22:32:02.919394 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000122.sst 
+2026/04/15-22:32:02.921788 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:32:02.922440 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000122.sst 
+2026/04/15-22:32:02.931196 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000119.log
+2026/04/15-22:32:02.943547 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000119.log 
+2026/04/15-22:32:02.944126 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 23 450 765 62 12 12 3
+2026/04/15-22:32:02.944304 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000125.sst direct: 1
+2026/04/15-22:32:02.950416 1140 [DEBUG] Allocating zone(new=0) start: 0x4c000000 wp: 0x4c872a00 lt: 3 file lt: 2
+2026/04/15-22:32:02.950427 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000124.log
+2026/04/15-22:32:02.954385 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:32:02.954403 1107 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:32:02.954407 1107 [DEBUG] Allocating zone(new=0) start: 0x34000000 wp: 0x361c5a00 lt: 3 file lt: 3
+2026/04/15-22:32:02.954414 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 23 450 765 62 12 12 5
+2026/04/15-22:32:02.954420 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000125.sst
+2026/04/15-22:32:03.220579 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000125.sst
+2026/04/15-22:32:03.222876 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000125.sst
+2026/04/15-22:32:03.223543 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000125.sst direct: 1
+2026/04/15-22:32:03.229646 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000125.sst 
+2026/04/15-22:32:03.232017 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:32:03.232665 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000125.sst 
+2026/04/15-22:32:03.244879 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000121.log
+2026/04/15-22:32:03.248372 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000121.log 
+2026/04/15-22:32:03.248969 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 24 454 761 62 12 12 3
+2026/04/15-22:32:03.367821 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000126.log direct: 0
+2026/04/15-22:32:03.370451 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000127.sst direct: 1
+2026/04/15-22:32:03.374830 1140 [DEBUG] Allocating zone(new=0) start: 0x3c000000 wp: 0x3e793a00 lt: 3 file lt: 2
+2026/04/15-22:32:03.374836 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000126.log
+2026/04/15-22:32:03.380725 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:32:03.380743 1107 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:32:03.380747 1107 [DEBUG] Allocating zone(new=0) start: 0x34000000 wp: 0x36a35200 lt: 3 file lt: 3
+2026/04/15-22:32:03.380753 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 24 459 756 62 12 12 5
+2026/04/15-22:32:03.380760 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000127.sst
+2026/04/15-22:32:03.593027 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:32:03.593048 1106 [DEBUG] Allocating zone(new=1) start: 0x50000000 wp: 0x50000000 lt: 3 file lt: 3
+2026/04/15-22:32:03.593053 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 24 492 723 59 11 12 5
+2026/04/15-22:32:03.593058 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000123.sst
+2026/04/15-22:32:03.786886 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000128.log direct: 0
+2026/04/15-22:32:03.822579 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000127.sst
+2026/04/15-22:32:03.823150 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000127.sst
+2026/04/15-22:32:03.823776 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000127.sst direct: 1
+2026/04/15-22:32:03.837140 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000127.sst 
+2026/04/15-22:32:03.839410 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:32:03.840064 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000127.sst 
+2026/04/15-22:32:03.862794 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000124.log
+2026/04/15-22:32:03.863492 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000124.log 
+2026/04/15-22:32:03.864065 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 24 491 724 59 12 12 3
+2026/04/15-22:32:03.864240 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000129.sst direct: 1
+2026/04/15-22:32:03.865902 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000123.sst
+2026/04/15-22:32:03.866431 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000123.sst
+2026/04/15-22:32:03.867040 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000123.sst 
+2026/04/15-22:32:03.867061 1106 [DEBUG] New writable file: /rocksdbtest/dbbench/000130.sst direct: 1
+2026/04/15-22:32:03.874373 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:32:03.874393 1107 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:32:03.874396 1107 [DEBUG] Allocating zone(new=0) start: 0x50000000 wp: 0x5080d800 lt: 3 file lt: 3
+2026/04/15-22:32:03.874403 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 24 499 780 60 12 12 3
+2026/04/15-22:32:03.874408 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000129.sst
+2026/04/15-22:32:03.880003 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:32:03.880014 1106 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:32:03.880016 1106 [DEBUG] Allocating zone(new=0) start: 0x4c000000 wp: 0x4d802200 lt: 3 file lt: 3
+2026/04/15-22:32:03.880019 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 24 499 780 60 12 12 4
+2026/04/15-22:32:03.880023 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000130.sst
+2026/04/15-22:32:03.987859 1140 [DEBUG] Allocating zone(new=0) start: 0x34000000 wp: 0x372a6a00 lt: 3 file lt: 2
+2026/04/15-22:32:03.987874 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000128.log
+2026/04/15-22:32:04.194161 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000129.sst
+2026/04/15-22:32:04.194737 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000129.sst
+2026/04/15-22:32:04.195380 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000129.sst direct: 1
+2026/04/15-22:32:04.195623 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000129.sst 
+2026/04/15-22:32:04.198059 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:32:04.198718 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000129.sst 
+2026/04/15-22:32:04.207033 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000126.log
+2026/04/15-22:32:04.207725 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000126.log 
+2026/04/15-22:32:04.208301 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 25 495 784 61 12 12 3
+2026/04/15-22:32:04.775758 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000130.sst
+2026/04/15-22:32:04.776296 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000130.sst
+2026/04/15-22:32:04.776921 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000130.sst 
+2026/04/15-22:32:04.776944 1106 [DEBUG] New writable file: /rocksdbtest/dbbench/000131.sst direct: 1
+2026/04/15-22:32:04.790419 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:32:04.790428 1106 Finishing zone: Entering Finish()
+2026/04/15-22:32:04.936355 1106 Finishing zone: Entering Finish()
+2026/04/15-22:32:05.067086 1106 [DEBUG] Allocating zone(new=1) start: 0x5c000000 wp: 0x5c000000 lt: 3 file lt: 3
+2026/04/15-22:32:05.067189 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 26 533 746 58 10 11 3
+2026/04/15-22:32:05.067202 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000131.sst
+2026/04/15-22:32:05.953569 1140 [DEBUG] Allocating zone(new=0) start: 0x50000000 wp: 0x5107d400 lt: 3 file lt: 2
+2026/04/15-22:32:05.953585 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000128.log
+2026/04/15-22:32:05.956571 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000131.sst
+2026/04/15-22:32:05.957102 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000131.sst
+2026/04/15-22:32:05.957727 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000131.sst 
+2026/04/15-22:32:05.957749 1106 [DEBUG] New writable file: /rocksdbtest/dbbench/000132.sst direct: 1
+2026/04/15-22:32:05.966832 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:32:05.966846 1106 [DEBUG] Allocating zone(new=1) start: 0x60000000 wp: 0x60000000 lt: 3 file lt: 3
+2026/04/15-22:32:05.966852 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 26 571 772 57 10 11 3
+2026/04/15-22:32:05.966856 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000132.sst
+2026/04/15-22:32:06.189937 1140 [DEBUG] New writable file: /rocksdbtest/dbbench/000133.log direct: 0
+2026/04/15-22:32:06.190961 1107 [DEBUG] New writable file: /rocksdbtest/dbbench/000134.sst direct: 1
+2026/04/15-22:32:06.201343 1107 Entering Apply Finish Threshold Function
+2026/04/15-22:32:06.201369 1107 [DEBUG] Allocating zone(new=1) start: 0x64000000 wp: 0x64000000 lt: 3 file lt: 3
+2026/04/15-22:32:06.201378 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 27 572 771 57 11 12 4
+2026/04/15-22:32:06.201385 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000134.sst
+2026/04/15-22:32:06.382756 1140 [DEBUG] Allocating zone(new=0) start: 0x5c000000 wp: 0x5e02b200 lt: 3 file lt: 2
+2026/04/15-22:32:06.382769 1140 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000133.log
+2026/04/15-22:32:06.388327 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000134.sst
+2026/04/15-22:32:06.403780 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000134.sst
+2026/04/15-22:32:06.404448 1107 [DEBUG] New random access file: /rocksdbtest/dbbench/000134.sst direct: 1
+2026/04/15-22:32:06.404700 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000134.sst 
+2026/04/15-22:32:06.406869 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:32:06.407520 1107 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000134.sst 
+2026/04/15-22:32:06.415828 1107 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000128.log
+2026/04/15-22:32:06.416684 1107 [DEBUG] DeleteFile: rocksdbtest/dbbench/000128.log 
+2026/04/15-22:32:06.417660 1107 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 27 566 841 59 12 12 3
+2026/04/15-22:32:06.809167 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000132.sst
+2026/04/15-22:32:06.809747 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000132.sst
+2026/04/15-22:32:06.810478 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000132.sst 
+2026/04/15-22:32:06.810513 1106 [DEBUG] New writable file: /rocksdbtest/dbbench/000135.sst direct: 1
+2026/04/15-22:32:06.821804 1106 Entering Apply Finish Threshold Function
+2026/04/15-22:32:06.821818 1106 [DEBUG] Allocator: avoided a finish by relaxing lifetime diff requirement
+2026/04/15-22:32:06.821819 1106 [DEBUG] Allocating zone(new=0) start: 0x64000000 wp: 0x64872800 lt: 3 file lt: 3
+2026/04/15-22:32:06.821824 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 27 600 871 59 12 12 3
+2026/04/15-22:32:06.821828 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000135.sst
+2026/04/15-22:32:07.058890 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000135.sst
+2026/04/15-22:32:07.059432 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000135.sst
+2026/04/15-22:32:07.060056 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000135.sst 
+2026/04/15-22:32:07.061966 1106 [DEBUG] New random access file: /rocksdbtest/dbbench/000108.sst direct: 1
+2026/04/15-22:32:07.062482 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000108.sst 
+2026/04/15-22:32:07.062845 1106 [DEBUG] New random access file: /rocksdbtest/dbbench/000112.sst direct: 1
+2026/04/15-22:32:07.063335 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000112.sst 
+2026/04/15-22:32:07.063665 1106 [DEBUG] New random access file: /rocksdbtest/dbbench/000118.sst direct: 1
+2026/04/15-22:32:07.064149 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000118.sst 
+2026/04/15-22:32:07.064491 1106 [DEBUG] New random access file: /rocksdbtest/dbbench/000123.sst direct: 1
+2026/04/15-22:32:07.064974 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000123.sst 
+2026/04/15-22:32:07.065310 1106 [DEBUG] New random access file: /rocksdbtest/dbbench/000130.sst direct: 1
+2026/04/15-22:32:07.065788 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000130.sst 
+2026/04/15-22:32:07.066115 1106 [DEBUG] New random access file: /rocksdbtest/dbbench/000131.sst direct: 1
+2026/04/15-22:32:07.066596 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000131.sst 
+2026/04/15-22:32:07.066921 1106 [DEBUG] New random access file: /rocksdbtest/dbbench/000132.sst direct: 1
+2026/04/15-22:32:07.067404 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000132.sst 
+2026/04/15-22:32:07.068008 1106 [DEBUG] New random access file: /rocksdbtest/dbbench/000135.sst direct: 1
+2026/04/15-22:32:07.068241 1106 [DEBUG] GetFileSize: /rocksdbtest/dbbench/000135.sst 
+2026/04/15-22:32:07.069112 1106 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:32:07.069905 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000078.sst 
+2026/04/15-22:32:07.070442 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 28 602 869 59 12 12 2
+2026/04/15-22:32:07.070472 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000081.sst 
+2026/04/15-22:32:07.071135 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 28 570 837 59 11 11 2
+2026/04/15-22:32:07.071160 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000082.sst 
+2026/04/15-22:32:07.071751 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 28 561 782 58 10 10 2
+2026/04/15-22:32:07.071775 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000084.sst 
+2026/04/15-22:32:07.086771 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 28 554 725 56 9 9 2
+2026/04/15-22:32:07.086825 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000086.sst 
+2026/04/15-22:32:07.087468 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 28 545 670 55 8 8 2
+2026/04/15-22:32:07.087500 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000087.sst 
+2026/04/15-22:32:07.088049 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 28 513 702 57 8 8 2
+2026/04/15-22:32:07.088078 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000089.sst 
+2026/04/15-22:32:07.088690 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 28 505 646 56 8 8 2
+2026/04/15-22:32:07.088718 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000091.sst 
+2026/04/15-22:32:07.089341 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 28 496 591 54 8 8 2
+2026/04/15-22:32:07.089369 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000093.sst 
+2026/04/15-22:32:07.089907 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 28 464 623 57 8 8 2
+2026/04/15-22:32:07.089934 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000094.sst 
+2026/04/15-22:32:07.090470 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 28 456 631 58 8 8 2
+2026/04/15-22:32:07.090498 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000096.sst 
+2026/04/15-22:32:07.091043 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 28 447 640 58 8 8 2
+2026/04/15-22:32:07.091074 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000097.sst 
+2026/04/15-22:32:07.091710 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 28 415 608 59 8 8 2
+2026/04/15-22:32:07.091742 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000099.sst 
+2026/04/15-22:32:07.092293 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 28 407 616 60 8 8 2
+2026/04/15-22:32:07.092326 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000101.sst 
+2026/04/15-22:32:07.093139 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 28 398 561 58 8 8 2
+2026/04/15-22:32:07.093172 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000103.sst 
+2026/04/15-22:32:07.107919 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 28 391 568 59 8 8 2
+2026/04/15-22:32:07.107979 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000104.sst 
+2026/04/15-22:32:07.108682 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 28 358 537 59 8 8 2
+2026/04/15-22:32:07.108720 1106 [DEBUG] DeleteFile: rocksdbtest/dbbench/000105.sst 
+2026/04/15-22:32:07.109377 1106 [Zonestats:time(s),used_cap(MB),reclaimable_cap(MB), avg_reclaimable(%), active(#), active_zones(#), open_zones(#)] 28 332 499 60 8 8 2
+2026/04/15-22:32:07.179238 1104 [DEBUG] GetChildrenNoLock: /rocksdbtest/dbbench 
+2026/04/15-22:32:07.189703 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/000133.log
+2026/04/15-22:32:07.190372 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:32:07.190922 1104 [DEBUG] Syncing metadata for: /rocksdbtest/dbbench/MANIFEST-000005
+2026/04/15-22:32:07.191521 1104 [DEBUG] GetFileSize: /rocksdbtest/dbbench/MANIFEST-000005 
+2026/04/15-22:32:07.192556 1104 ZenFS shutting down
+2026/04/15-22:32:07.192564 1104 [DEBUG] Zone 0xC000000 used capacity: 10067 bytes (0 MB)
+2026/04/15-22:32:07.192569 1104 [DEBUG] Zone 0x10000000 used capacity: 8556 bytes (0 MB)
+2026/04/15-22:32:07.192573 1104 [DEBUG] Zone 0x1C000000 used capacity: 8861858 bytes (8 MB)
+2026/04/15-22:32:07.192576 1104 [DEBUG] Zone 0x20000000 used capacity: 33729868 bytes (32 MB)
+2026/04/15-22:32:07.192579 1104 [DEBUG] Zone 0x34000000 used capacity: 53109657 bytes (50 MB)
+2026/04/15-22:32:07.192582 1104 [DEBUG] Zone 0x3C000000 used capacity: 8864328 bytes (8 MB)
+2026/04/15-22:32:07.192585 1104 [DEBUG] Zone 0x40000000 used capacity: 67108779 bytes (63 MB)
+2026/04/15-22:32:07.192588 1104 [DEBUG] Zone 0x48000000 used capacity: 25636864 bytes (24 MB)
+2026/04/15-22:32:07.192591 1104 [DEBUG] Zone 0x4C000000 used capacity: 42587416 bytes (40 MB)
+2026/04/15-22:32:07.192594 1104 [DEBUG] Zone 0x50000000 used capacity: 17289925 bytes (16 MB)
+2026/04/15-22:32:07.192597 1104 [DEBUG] Zone 0x5C000000 used capacity: 40716840 bytes (38 MB)
+2026/04/15-22:32:07.192600 1104 [DEBUG] Zone 0x60000000 used capacity: 33731584 bytes (32 MB)
+2026/04/15-22:32:07.192602 1104 [DEBUG] Zone 0x64000000 used capacity: 18925983 bytes (18 MB)
+2026/04/15-22:32:07.192618 1104 Zone Garbage Stats: [48 9 0 1 1 0 0 1 0 1 0 0 ]
+2026/04/15-22:32:07.192621 1104 Total Garbage Bytes: 123087395 bytes
+2026/04/15-22:32:07.192624 1104   Files:
+2026/04/15-22:32:07.192627 1104     /rocksdbtest/dbbench/000107.sst               sz: 8861858 lh: 3 sparse: 0
+2026/04/15-22:32:07.192631 1104           Extent 0 {start=0x1c000000, zone=7, len=8861858} 
+2026/04/15-22:32:07.192636 1104     /rocksdbtest/dbbench/000108.sst               sz: 33729868 lh: 3 sparse: 0
+2026/04/15-22:32:07.192639 1104           Extent 0 {start=0x20000000, zone=8, len=33729868} 
+2026/04/15-22:32:07.192642 1104     /rocksdbtest/dbbench/000110.sst               sz: 8858935 lh: 3 sparse: 0
+2026/04/15-22:32:07.192645 1104           Extent 0 {start=0x34000000, zone=13, len=8858935} 
+2026/04/15-22:32:07.192648 1104     /rocksdbtest/dbbench/000112.sst               sz: 33729478 lh: 3 sparse: 0
+2026/04/15-22:32:07.192651 1104           Extent 0 {start=0x4a78d000, zone=18, len=25636864} 
+2026/04/15-22:32:07.192654 1104           Extent 1 {start=0x40000000, zone=16, len=8092614} 
+2026/04/15-22:32:07.192657 1104     /rocksdbtest/dbbench/000113.sst               sz: 8842225 lh: 3 sparse: 0
+2026/04/15-22:32:07.192660 1104           Extent 0 {start=0x34872e00, zone=13, len=8842225} 
+2026/04/15-22:32:07.192663 1104     /rocksdbtest/dbbench/000115.sst               sz: 8864328 lh: 3 sparse: 0
+2026/04/15-22:32:07.192666 1104           Extent 0 {start=0x3c000000, zone=15, len=8864328} 
+2026/04/15-22:32:07.192669 1104     /rocksdbtest/dbbench/000117.sst               sz: 8861816 lh: 3 sparse: 0
+2026/04/15-22:32:07.192672 1104           Extent 0 {start=0x350e1a00, zone=13, len=8861816} 
+2026/04/15-22:32:07.192674 1104     /rocksdbtest/dbbench/000118.sst               sz: 33730533 lh: 3 sparse: 0
+2026/04/15-22:32:07.192677 1104           Extent 0 {start=0x407b7c00, zone=16, len=33730533} 
+2026/04/15-22:32:07.192680 1104     /rocksdbtest/dbbench/000120.sst               sz: 8848706 lh: 3 sparse: 0
+2026/04/15-22:32:07.192683 1104           Extent 0 {start=0x35955400, zone=13, len=8848706} 
+2026/04/15-22:32:07.192686 1104     /rocksdbtest/dbbench/000122.sst               sz: 8857705 lh: 3 sparse: 0
+2026/04/15-22:32:07.192688 1104           Extent 0 {start=0x4c000000, zone=19, len=8857705} 
+2026/04/15-22:32:07.192691 1104     /rocksdbtest/dbbench/000123.sst               sz: 33729294 lh: 3 sparse: 0
+2026/04/15-22:32:07.192694 1104           Extent 0 {start=0x427e2c00, zone=16, len=25285632} 
+2026/04/15-22:32:07.192697 1104           Extent 1 {start=0x50000000, zone=20, len=8443662} 
+2026/04/15-22:32:07.192700 1104     /rocksdbtest/dbbench/000125.sst               sz: 8844866 lh: 3 sparse: 0
+2026/04/15-22:32:07.192703 1104           Extent 0 {start=0x361c5a00, zone=13, len=8844866} 
+2026/04/15-22:32:07.192705 1104     /rocksdbtest/dbbench/000127.sst               sz: 8853109 lh: 3 sparse: 0
+2026/04/15-22:32:07.192708 1104           Extent 0 {start=0x36a35200, zone=13, len=8853109} 
+2026/04/15-22:32:07.192711 1104     /rocksdbtest/dbbench/000129.sst               sz: 8846263 lh: 3 sparse: 0
+2026/04/15-22:32:07.192714 1104           Extent 0 {start=0x5080d800, zone=20, len=8846263} 
+2026/04/15-22:32:07.192717 1104     /rocksdbtest/dbbench/000130.sst               sz: 33729711 lh: 3 sparse: 0
+2026/04/15-22:32:07.192720 1104           Extent 0 {start=0x4d802200, zone=19, len=33729711} 
+2026/04/15-22:32:07.192723 1104     /rocksdbtest/dbbench/000131.sst               sz: 33730674 lh: 3 sparse: 0
+2026/04/15-22:32:07.192725 1104           Extent 0 {start=0x5c000000, zone=23, len=33730674} 
+2026/04/15-22:32:07.192728 1104     /rocksdbtest/dbbench/000132.sst               sz: 33731584 lh: 3 sparse: 0
+2026/04/15-22:32:07.192731 1104           Extent 0 {start=0x60000000, zone=24, len=33731584} 
+2026/04/15-22:32:07.192734 1104     /rocksdbtest/dbbench/000133.log               sz: 6986166 lh: 2 sparse: 1
+2026/04/15-22:32:07.192737 1104           Extent 0 {start=0x5e02b208, zone=23, len=1048568} 
+2026/04/15-22:32:07.192740 1104           Extent 1 {start=0x5e12b208, zone=23, len=1048568} 
+2026/04/15-22:32:07.192743 1104           Extent 2 {start=0x5e22b208, zone=23, len=1048568} 
+2026/04/15-22:32:07.192745 1104           Extent 3 {start=0x5e32b208, zone=23, len=1048568} 
+2026/04/15-22:32:07.192748 1104           Extent 4 {start=0x5e42b208, zone=23, len=1048568} 
+2026/04/15-22:32:07.192751 1104           Extent 5 {start=0x5e52b208, zone=23, len=1048568} 
+2026/04/15-22:32:07.192754 1104           Extent 6 {start=0x5e62b208, zone=23, len=694758} 
+2026/04/15-22:32:07.192757 1104     /rocksdbtest/dbbench/000134.sst               sz: 8857365 lh: 3 sparse: 0
+2026/04/15-22:32:07.192760 1104           Extent 0 {start=0x64000000, zone=25, len=8857365} 
+2026/04/15-22:32:07.192763 1104     /rocksdbtest/dbbench/000135.sst               sz: 10068618 lh: 3 sparse: 0
+2026/04/15-22:32:07.192766 1104           Extent 0 {start=0x64872800, zone=25, len=10068618} 
+2026/04/15-22:32:07.192769 1104     /rocksdbtest/dbbench/CURRENT                  sz: 16 lh: 0 sparse: 0
+2026/04/15-22:32:07.192772 1104           Extent 0 {start=0x10000000, zone=4, len=16} 
+2026/04/15-22:32:07.192775 1104     /rocksdbtest/dbbench/IDENTITY                 sz: 36 lh: 0 sparse: 0
+2026/04/15-22:32:07.192778 1104           Extent 0 {start=0xc000000, zone=3, len=36} 
+2026/04/15-22:32:07.192781 1104     /rocksdbtest/dbbench/MANIFEST-000005          sz: 10031 lh: 0 sparse: 0
+2026/04/15-22:32:07.192784 1104           Extent 0 {start=0xc000600, zone=3, len=116} 
+2026/04/15-22:32:07.192787 1104           Extent 1 {start=0xc000800, zone=3, len=136} 
+2026/04/15-22:32:07.192790 1104           Extent 2 {start=0xc000a00, zone=3, len=138} 
+2026/04/15-22:32:07.192793 1104           Extent 3 {start=0xc000c00, zone=3, len=138} 
+2026/04/15-22:32:07.192795 1104           Extent 4 {start=0xc000e00, zone=3, len=138} 
+2026/04/15-22:32:07.192798 1104           Extent 5 {start=0xc001000, zone=3, len=138} 
+2026/04/15-22:32:07.192801 1104           Extent 6 {start=0xc001200, zone=3, len=138} 
+2026/04/15-22:32:07.192804 1104           Extent 7 {start=0xc001400, zone=3, len=225} 
+2026/04/15-22:32:07.192806 1104           Extent 8 {start=0xc001600, zone=3, len=138} 
+2026/04/15-22:32:07.192809 1104           Extent 9 {start=0xc001800, zone=3, len=138} 
+2026/04/15-22:32:07.192812 1104           Extent 10 {start=0xc001a00, zone=3, len=138} 
+2026/04/15-22:32:07.192815 1104           Extent 11 {start=0xc001c00, zone=3, len=138} 
+2026/04/15-22:32:07.192818 1104           Extent 12 {start=0xc001e00, zone=3, len=138} 
+2026/04/15-22:32:07.192820 1104           Extent 13 {start=0xc002000, zone=3, len=138} 
+2026/04/15-22:32:07.192823 1104           Extent 14 {start=0xc002200, zone=3, len=233} 
+2026/04/15-22:32:07.192825 1104           Extent 15 {start=0xc002400, zone=3, len=138} 
+2026/04/15-22:32:07.192828 1104           Extent 16 {start=0xc002600, zone=3, len=138} 
+2026/04/15-22:32:07.192831 1104           Extent 17 {start=0xc002800, zone=3, len=138} 
+2026/04/15-22:32:07.192834 1104           Extent 18 {start=0xc002a00, zone=3, len=138} 
+2026/04/15-22:32:07.192836 1104           Extent 19 {start=0xc002c00, zone=3, len=138} 
+2026/04/15-22:32:07.192839 1104           Extent 20 {start=0xc002e00, zone=3, len=138} 
+2026/04/15-22:32:07.192842 1104           Extent 21 {start=0xc003000, zone=3, len=138} 
+2026/04/15-22:32:07.192844 1104           Extent 22 {start=0xc003200, zone=3, len=333} 
+2026/04/15-22:32:07.192847 1104           Extent 23 {start=0xc003400, zone=3, len=138} 
+2026/04/15-22:32:07.192850 1104           Extent 24 {start=0xc003600, zone=3, len=138} 
+2026/04/15-22:32:07.192852 1104           Extent 25 {start=0xc003800, zone=3, len=138} 
+2026/04/15-22:32:07.192855 1104           Extent 26 {start=0xc003a00, zone=3, len=138} 
+2026/04/15-22:32:07.192858 1104           Extent 27 {start=0xc003c00, zone=3, len=138} 
+2026/04/15-22:32:07.192860 1104           Extent 28 {start=0xc003e00, zone=3, len=138} 
+2026/04/15-22:32:07.192863 1104           Extent 29 {start=0xc004000, zone=3, len=138} 
+2026/04/15-22:32:07.192866 1104           Extent 30 {start=0xc004200, zone=3, len=138} 
+2026/04/15-22:32:07.192868 1104           Extent 31 {start=0xc004400, zone=3, len=138} 
+2026/04/15-22:32:07.192871 1104           Extent 32 {start=0xc004600, zone=3, len=138} 
+2026/04/15-22:32:07.192874 1104           Extent 33 {start=0xc004800, zone=3, len=545} 
+2026/04/15-22:32:07.192876 1104           Extent 34 {start=0xc004c00, zone=3, len=138} 
+2026/04/15-22:32:07.192879 1104           Extent 35 {start=0xc004e00, zone=3, len=138} 
+2026/04/15-22:32:07.192882 1104           Extent 36 {start=0xc005000, zone=3, len=138} 
+2026/04/15-22:32:07.192885 1104           Extent 37 {start=0xc005200, zone=3, len=138} 
+2026/04/15-22:32:07.192887 1104           Extent 38 {start=0xc005400, zone=3, len=138} 
+2026/04/15-22:32:07.192890 1104           Extent 39 {start=0xc005600, zone=3, len=138} 
+2026/04/15-22:32:07.192893 1104           Extent 40 {start=0xc005800, zone=3, len=138} 
+2026/04/15-22:32:07.192896 1104           Extent 41 {start=0xc005a00, zone=3, len=138} 
+2026/04/15-22:32:07.192899 1104           Extent 42 {start=0xc005c00, zone=3, len=138} 
+2026/04/15-22:32:07.192901 1104           Extent 43 {start=0xc005e00, zone=3, len=138} 
+2026/04/15-22:32:07.192904 1104           Extent 44 {start=0xc006000, zone=3, len=138} 
+2026/04/15-22:32:07.192907 1104           Extent 45 {start=0xc006200, zone=3, len=660} 
+2026/04/15-22:32:07.192909 1104           Extent 46 {start=0xc006600, zone=3, len=138} 
+2026/04/15-22:32:07.192912 1104           Extent 47 {start=0xc006800, zone=3, len=138} 
+2026/04/15-22:32:07.192915 1104           Extent 48 {start=0xc006a00, zone=3, len=138} 
+2026/04/15-22:32:07.192917 1104           Extent 49 {start=0xc006c00, zone=3, len=138} 
+2026/04/15-22:32:07.192920 1104           Extent 50 {start=0xc006e00, zone=3, len=138} 
+2026/04/15-22:32:07.192923 1104           Extent 51 {start=0xc007000, zone=3, len=138} 
+2026/04/15-22:32:07.192925 1104           Extent 52 {start=0xc007200, zone=3, len=138} 
+2026/04/15-22:32:07.192928 1104           Extent 53 {start=0xc007400, zone=3, len=138} 
+2026/04/15-22:32:07.192930 1104           Extent 54 {start=0xc007600, zone=3, len=140} 
+2026/04/15-22:32:07.192933 1104           Extent 55 {start=0xc007800, zone=3, len=143} 
+2026/04/15-22:32:07.192936 1104           Extent 56 {start=0xc007a00, zone=3, len=143} 
+2026/04/15-22:32:07.192939 1104           Extent 57 {start=0xc007c00, zone=3, len=871} 
+2026/04/15-22:32:07.192941 1104     /rocksdbtest/dbbench/OPTIONS-000007           sz: 8540 lh: 0 sparse: 0
+2026/04/15-22:32:07.192944 1104           Extent 0 {start=0x10000200, zone=4, len=8540} 
+2026/04/15-22:32:07.192948 1104 Sum of all files: 334 MB of data 
+2026/04/15-22:32:10.622058 1105 Zone Garbage Stats: [48 9 0 1 1 0 0 1 0 1 0 0 ]
+2026/04/15-22:32:10.622274 1105 Total Garbage Bytes: 123087395 bytes
