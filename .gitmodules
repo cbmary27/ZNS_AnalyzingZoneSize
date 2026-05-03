@@ -1,3 +1,6 @@
 [submodule "rocksdb"]
 	path = rocksdb
 	url = https://github.com/cbmary27/RocksDB-ZenFS.git
+[submodule "kv-bench"]
+	path = kv-bench
+	url = https://github.com/nanda002/KV-Bench.git
