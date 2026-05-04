@@ -54,7 +54,7 @@ These experiments evaluate:
 - Transient latency behavior after reset
 
 👉 Detailed setup, scripts, and instructions:  
-➡️ [Device-Level Experiments](device-level-experiments/README.md)
+➡️ [Device-Level Experiments](device-level-experiments/Device-Level-Experiments.md)
 
 ---
 
