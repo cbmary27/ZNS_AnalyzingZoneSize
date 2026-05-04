@@ -70,6 +70,23 @@ The main configurations used were:
 
 ---
 
+# ⚙️ Running Different ZNS Configurations
+
+Each experiment must be run with a specific ZNS configuration. These configurations control zone size and internal parallelism.
+
+We use the provided FEMU run script to launch the VM with different configurations.
+
+## Run on SCC (outside VM):
+
+Different commands for different configs as discussed above.
+
+```bash
+./run-zns-configs.sh 0
+./run-zns-configs.sh 10
+./run-zns-configs.sh 18
+```
+Each experiment must be repeated separately for each configuration by relaunching the VM with the corresponding configuration ID.
+
 ---
 
 # ⚙️ EXPERIMENT 1: INTRA-ZONE
@@ -149,6 +166,18 @@ gcc phase3_trace_write.c -o phase3_trace_write   -I$HOME/libnvme/src   -L$HOME/l
 ./run_phase3_trace.sh 0 134217728 5
 ./run_phase3_trace.sh 10 67108864 5
 ./run_phase3_trace.sh 18 33554432 5
+```
+
+## 📤 Copy Results from VM to SCC
+
+All experiment outputs are generated inside the VM at: /home/femu/zns-results/
+
+To generate plots on the SCC side, copy these results back to your local workspace.
+
+### Run this on SCC:
+
+```bash
+scp -P 8081 -r femu@localhost:/home/femu/zns-results ~/device-level-experiments/device-results/
 ```
 
 ---
