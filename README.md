@@ -29,10 +29,10 @@ We evaluate three configurations:
 ---
 
 # ⚙️ Setup Instructions
-
 ## 1. Clone ConfZNS++ (FEMU-based ZNS Emulator)
 
-Clone: https://github.com/stonet-research/confznsplusplus 
+Clone: https://github.com/stonet-research/confznsplusplus
+
 Follow the installation steps: https://github.com/MoatLab/FEMU
 ---
 
