@@ -70,6 +70,23 @@ The main configurations used were:
 
 ---
 
+# ⚙️ Running Different ZNS Configurations
+
+Each experiment must be run with a specific ZNS configuration. These configurations control zone size and internal parallelism.
+
+We use the provided FEMU run script to launch the VM with different configurations.
+
+## Run on SCC (outside VM):
+
+Different commands for different configs as discussed above.
+
+```bash
+./run-zns-configs.sh 0
+./run-zns-configs.sh 10
+./run-zns-configs.sh 18
+```
+Each experiment must be repeated separately for each configuration by relaunching the VM with the corresponding configuration ID.
+
 ---
 
 # ⚙️ EXPERIMENT 1: INTRA-ZONE
