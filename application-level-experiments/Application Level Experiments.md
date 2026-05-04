@@ -2,7 +2,10 @@
 
 This folder contains the scripts, results, and plotting code used to evaluate ZNS SSD behavior under different device configurations with RocksDB + ZenFS.
 
-# 🔧 IMPORTANT SETUP NOTE (VERY IMPORTANT)
+# 🔧 IMPORTANT SETUP NOTE
+
+1. For Installing RocksDB: 
+2. For Installing KVBench: 
 
 A custom `zns.c` file is included in this repository.
 
