@@ -1,0 +1,9 @@
+device=/dev/nvme0n1
+nsid=1
+zone_size=134217728
+target_zone=13
+target_offset=1744830464
+target_slba=3407872
+write_size=4096
+mode=filled_then_reset
+reset_plus_write_latency_us=10789
