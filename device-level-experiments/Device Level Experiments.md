@@ -151,6 +151,18 @@ gcc phase3_trace_write.c -o phase3_trace_write   -I$HOME/libnvme/src   -L$HOME/l
 ./run_phase3_trace.sh 18 33554432 5
 ```
 
+## 📤 Copy Results from VM to SCC
+
+All experiment outputs are generated inside the VM at: /home/femu/zns-results/
+
+To generate plots on the SCC side, copy these results back to your local workspace.
+
+### Run this on SCC:
+
+```bash
+scp -P 8081 -r femu@localhost:/home/femu/zns-results ~/device-level-experiments/device-results/
+```
+
 ---
 
 ## Run plots
