@@ -32,9 +32,8 @@ We evaluate three configurations:
 
 ## 1. Clone ConfZNS++ (FEMU-based ZNS Emulator)
 
-```bash
-```
-
+Clone: https://github.com/stonet-research/confznsplusplus 
+Follow the installation steps: https://github.com/MoatLab/FEMU
 ---
 
 # 🔬 Experiments
