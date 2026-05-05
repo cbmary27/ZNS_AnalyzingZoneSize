@@ -10,7 +10,7 @@ We evaluate how different configurations affect:
 
 ---
 
-# 🧠 Project Overview
+# Project Overview
 
 ZNS SSDs expose internal storage structure (zones) to the host. The size of these zones directly impacts how efficiently the SSD can utilize its internal parallelism.
 
@@ -28,7 +28,7 @@ We evaluate three configurations:
 
 ---
 
-# ⚙️ Setup Instructions
+# Setup Instructions
 ## 1. Clone ConfZNS++ (FEMU-based ZNS Emulator)
 
 Clone: https://github.com/stonet-research/confznsplusplus
@@ -37,13 +37,13 @@ Follow the installation steps: https://github.com/MoatLab/FEMU
 
 ---
 
-# 🔬 Experiments
+# Experiments
 
 This project is divided into two main components:
 
 ---
 
-## 🧪 Device-Level Experiments
+## Device-Level Experiments
 
 We use **FEMU + FIO** to analyze raw ZNS device behavior under different configurations.
 
@@ -58,7 +58,7 @@ These experiments evaluate:
 
 ---
 
-## 📦 Application-Level Experiments
+## Application-Level Experiments
 
 We use **RocksDB with ZenFS** to evaluate system-level impact of zone size.
 
