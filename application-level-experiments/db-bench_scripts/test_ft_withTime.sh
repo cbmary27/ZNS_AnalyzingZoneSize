@@ -13,6 +13,7 @@ mkdir -p "$RESULT_DIR"
 THRESHOLDS=$(seq 0 10 100)
 #THRESHOLDS="0 50"
 
+# Latency bandwith and throughput Check
 # Run through the finish thresholds
 for FT in $THRESHOLDS; do
 
@@ -20,7 +21,7 @@ for FT in $THRESHOLDS; do
     sudo rm -rf "${AUX_PATH:?}"/*
     echo mq-deadline | sudo tee /sys/class/block/nvme0n1/queue/scheduler
     # Make filesystem with current finish threshold
-sudo $ZENFS_MKFS mkfs --zbd=nvme0n1 --aux_path="$AUX_PATH" --force --finish_threshold="$FT"
+    sudo $ZENFS_MKFS mkfs --zbd=nvme0n1 --aux_path="$AUX_PATH" --force --finish_threshold="$FT"
     # Start timer
     START_TIME=$(date +%s%N)
 
