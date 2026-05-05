@@ -71,7 +71,7 @@ Fill in the desired occupancy threshold to test in the test_ft_page, then go to 
 
 ```bash
 cd kv-bench/kv-bench-rocksdb-example
-./application-level-experiments/test_ft_kv.sh
+./application-level-experiments/kv-bench_scripts/test_ft_kv.sh
 ```
 ### Output
 
@@ -84,9 +84,16 @@ The last "Cumulative Average Garbage Bytes" in the log files contains the averag
 
 ## EXPERIMENT 3: Latency and Bandwidth
 
+### Run (Inside VM)
 
+```bash
+cd kv-bench/kv-bench-rocksdb-example
+./application-level-experiments/kv-bench_scripts/test_ft_kv.sh
+./application-level-experiments/kv-bench_scripts/extract-metrics.sh
+```
+### Output
 
-
+The results will be stored in a seperate directtory, make sure path for the results is correct before running above commands
 
    
 ## NOTE
