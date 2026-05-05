@@ -42,9 +42,9 @@ Follow the installation steps: https://github.com/MoatLab/FEMU
 This project is divided into two main components:
 
 ---
-## Preeliminary Experiments
+## Preliminary Experiments
 
-The scripts and results can be foung [here](preeliminary-level-experiments)
+The scripts and results can be found [here](preliminary-level-experiments)
 
 ## Device-Level Experiments
 
