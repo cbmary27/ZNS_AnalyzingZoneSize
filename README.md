@@ -44,7 +44,7 @@ This project is divided into two main components:
 ---
 ## Preliminary Experiments
 
-The scripts and results can be found [here](preliminary-level-experiments)
+➡️ The scripts and results can be found [here](preliminary-level-experiments)
 
 ## Device-Level Experiments
 
