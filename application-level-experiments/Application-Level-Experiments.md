@@ -5,7 +5,7 @@ This folder contains the scripts, results, and plotting code used to evaluate ZN
 ## IMPORTANT SETUP NOTE
 
 1. For Installing RocksDB: [RocksDB](https://github.com/cbmary27/RocksDB-ZenFS/blob/main/README.md)
-2. For Installing KVBench: 
+2. For Installing KVBench: [KVBench](https://github.com/nanda002/KV-Bench.git)
 
 A custom `zns.c` file is included in this repository.
 
@@ -58,7 +58,7 @@ cd kv-bench/kv-bench-rocksdb-example
 ```
 
 ```bash
-./test_ft_page.sh
+./application-level-experiments/test_ft_page.sh
 ```
 
 ### Output
@@ -71,7 +71,7 @@ Fill in the desired occupancy threshold to test in the test_ft_page, then go to 
 
 ```bash
 cd kv-bench/kv-bench-rocksdb-example
-./test_ft_kv.sh
+./application-level-experiments/test_ft_kv.sh
 ```
 ### Output
 
