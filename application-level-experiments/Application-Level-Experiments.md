@@ -38,11 +38,11 @@ make -j
 
 Use the run-zns-exp.sh and pass the parameters as below:
 
-FORMAT: ./scc_scripts/run-zns-exp.sh zone_size channels_per_zone ways_per_zone
+FORMAT: ./run-zns-exp.sh zone_size channels_per_zone ways_per_zone
 
 eg.  
 ```bash
-./run-zns-exp.sh 64 8 1
+./scc_scripts/run-zns-exp.sh 64 8 1
 ```
 
 ## Overview
